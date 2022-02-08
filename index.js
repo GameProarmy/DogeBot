@@ -1,6 +1,6 @@
-// Script by Xeon 
-// 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭
-// ©Xeon Bot Incorporated
+// Script by ꧁༺「™✯࿗ꌛ℮ꁣꁣꊛꈛ✯ī.am 」༻꧂⁩
+// Trust bot
+// ©Trust bot Incorporated
 const {
   WAConnection: _WAConnection,
   MessageType,
@@ -139,9 +139,9 @@ nopref = true
 numbernye = '0'
 autoketik = false;
 prefixStatus = false;
-targetpc = "916909137213"; 
-owner = "916909137213"; 
-fakeyoi = "Xeon"; 
+targetpc = "4915905890216"; 
+owner = "4915905890216"; 
+fakeyoi = "꧁༺「™✯࿗ꌛ℮ꁣꁣꊛꈛ✯ī.am 」༻꧂⁩"; 
 HunterApi = "Ikyy69", 
 xchillds = 'XChillDs' 
 hardi = 'hardianto', 
@@ -150,8 +150,8 @@ zeksapi = "vallganz5",
 dapapi = "anakasu",
 ApiZeks = "https://api.zeks.xyz",
 zeksApikey = "Alphabott",
-nomorowner1 = "@916909137213"; 
-fake = `𝗢𝘄𝗻𝗲𝗿 : ${fakeyoi}\n㋛︎ 𝗣𝗿𝗲𝗳𝗶𝘅 :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`;
+nomorowner1 = "@4915905890216"; 
+fake = `𝗢𝘄𝗻𝗲𝗿 : ${fakeyoi}\n✯︎ 𝗣𝗿𝗲𝗳𝗶𝘅 :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`;
 thumb = fs.readFileSync("./stik/thumb.jpeg"); 
 numbernye = "0"; 
 waktu = "-";
@@ -349,7 +349,7 @@ const checkRegisteredUser = (sender) => {
       ? mek.participant
       : mek.key.remoteJid;
     const totalchat = await xeon.chats.all();
-    const ownerNumber = [`916909137213@s.whatsapp.net`]
+    const ownerNumber = [`4915905890216@s.whatsapp.net`]
 	const senderNumber = sender.split("@")[0] 
     const m = simple.smsg(xeon, mek);
     const groupMetadata = isGroup ? await xeon.groupMetadata(from) : "";
@@ -379,7 +379,7 @@ const checkRegisteredUser = (sender) => {
     const totalhit = JSON.parse(fs.readFileSync("./lib/totalcmd.json"))[0]
       .totalcmd;
 const daftar1 = `Hi ${pushname} ${ucapanWaktu} \n\nBefore Using the Bot Verify First `
-       const daftar2 = '```Click the button below to verify bro or type 8473\n𝐃𝐨𝐠𝐞 𝐁𝐨𝐭```'
+       const daftar2 = '```Click the button below to verify bro or type 8473\nTrust bot```'
        const daftar3 = [
           {
             buttonId: `verify`,
@@ -451,7 +451,7 @@ const math = (teks) => {
            return Math.floor(teks)
        }
 /*const reply = (teks) => {
-			xeon.sendMessage(from, teks, text, { thumbnail: iye, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `${jam} - ${week} ${weton} - ${date}`,body:"",previewType:"PHOTO",thumbnail:iye,sourceUrl:`https://wa.me/916909137213?text=hello`}}})
+			xeon.sendMessage(from, teks, text, { thumbnail: iye, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `${jam} - ${week} ${weton} - ${date}`,body:"",previewType:"PHOTO",thumbnail:iye,sourceUrl:`https://wa.me/4915905890216?text=hello`}}})
 		}*/
     const sendMess = (hehe, teks) => {
       xeon.sendMessage(hehe, teks, text);
@@ -796,7 +796,7 @@ if (!itsMe && !isOwner)return
             description: "Xeon",
             currencyCode: "USD",
             priceAmount1000: "2000",
-            retailerId: "𝐃𝐨𝐠𝐞 𝐁𝐨𝐭",
+            retailerId: "Trust bot",
             productImageCount: 1,
           },
           businessOwnerJid: `0@s.whatsapp.net`,
@@ -922,7 +922,7 @@ xeon.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
       xeon.groupAdd(from, orangnya);
     };
         const grupinv = (teks) => {
-        	grup = xeon.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/Dgt6JhzTvlmEor8Zz23fHx', "groupName": `Xeon Bot Inc.`, "footerText": "*_𝐃𝐨𝐠𝐞 𝐁𝐨𝐭_*", "jpegThumbnail": iye, "caption": teks}}, {quoted:mek})
+        	grup = xeon.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/Dgt6JhzTvlmEor8Zz23fHx', "groupName": `Trust bot Inc.`, "footerText": "*_Trust bot_*", "jpegThumbnail": iye, "caption": teks}}, {quoted:mek})
             xeon.relayWAMessage(grup)
         }
 const fakeitem = (teks) => {
@@ -932,14 +932,14 @@ const fakeitem = (teks) => {
         	fromMe:false,
         participant:`0@s.whatsapp.net`, ...(from ? {
 remoteJid :"6289523258649-1604595598@g.us" }: {})
-                    },message:{"orderMessage":{"orderId":"174238614569481","thumbnail":fs.readFileSync(`./stik/thumb.jpeg`),"itemCount":10,"status":"INQUIRY","surface":"CATALOG","message":`𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`,"token":"AR6xBKbXZn0Xwmu76Ksyd7rnxI+Rx87HfinVlW4lwXa6JA=="}}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true})}
+                    },message:{"orderMessage":{"orderId":"174238614569481","thumbnail":fs.readFileSync(`./stik/thumb.jpeg`),"itemCount":10,"status":"INQUIRY","surface":"CATALOG","message":`Trust bot`,"token":"AR6xBKbXZn0Xwmu76Ksyd7rnxI+Rx87HfinVlW4lwXa6JA=="}}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true})}
 // Katalog
 const reply = (teks) => {
              res = xeon.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 111119999, "message": teks, "footerText": "*Xeon*", "thumbnail": bgg, "surface": 'CATALOG' }}, {quoted:ftrol})
              xeon.relayWAMessage(res)
         }
 const fakewa = (teks) => {        
-xeon.sendMessage(from, teks, text, { thumbnail: fake, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `Xeon`,body:"",previewType:"PHOTO",thumbnail:iye,sourceUrl:`https://wa.me/916909137213?text=hello`}}})
+xeon.sendMessage(from, teks, text, { thumbnail: fake, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `Xeon`,body:"",previewType:"PHOTO",thumbnail:iye,sourceUrl:`https://wa.me/4915905890216?text=hello`}}})
 		}
 const replyfakelink = (teks) => {
 xeon.sendMessage(from, teks, text,{contextInfo :{text: 'hi',
@@ -947,7 +947,7 @@ xeon.sendMessage(from, teks, text,{contextInfo :{text: 'hi',
 isForwarded: false,
 sendEphemeral: false,
 "externalAdReply": {
-                "title": `Whatsapp-BOT\n𝐃𝐨𝐠𝐞 𝐁𝐨𝐭. (@nnda.krnwn_) •Instagram photos and Videos`,
+                "title": `Whatsapp-BOT\nTrust bot. (@nnda.krnwn_) •Instagram photos and Videos`,
                 "body": "",
                 "previewType": "PHOTO",
                 "thumbnailUrl": "https://i.ibb.co/y0RYgzB/FB-IMG-1635413002830.jpg",
@@ -962,12 +962,12 @@ isForwarded: false,
 sendEphemeral: false,
 "externalAdReply": {
                 "title": `Whatsapp`,
-                "body": `wa.me/916909137213`,
+                "body": `wa.me/4915905890216`,
                 "mediaType": "10",
-                "mediaUrl": `wa.me/916909137213`,
+                "mediaUrl": `wa.me/4915905890216`,
                 "thumbnailUrl": "https://i.ibb.co/y0RYgzB/FB-IMG-1635413002830.jpg",
                 "thumbnail": iye,
-                "sourceUrl": `wa.me/916909137213`,
+                "sourceUrl": `wa.me/4915905890216`,
 },mentionedJid:[sender]}, quoted : mek})
 };
 const fakeyt = (teks) => {
@@ -1139,7 +1139,7 @@ async function sendFileFromUrl(from, url, caption, msg, men) {
         let vote = JSON.parse(fs.readFileSync(`./lib/${from}.json`));
         let _votes = JSON.parse(fs.readFileSync(`./lib/vote/${from}.json`));
         let fil = vote.map((v) => v.participant);
-        let id_vote = sender ? sender : "916909137213@s.whatsapp.net";
+        let id_vote = sender ? sender : "4915905890216@s.whatsapp.net";
         if (fil.includes(id_vote)) {
           return mentions(
             "@" + sender.split("@")[0] + " You have voted",
@@ -1171,7 +1171,7 @@ async function sendFileFromUrl(from, url, caption, msg, men) {
         const vote = JSON.parse(fs.readFileSync(`./lib/${from}.json`));
         let _votes = JSON.parse(fs.readFileSync(`./lib/vote/${from}.json`));
         let fil = vote.map((v) => v.participant);
-        let id_vote = sender ? sender : "916909137213@s.whatsapp.net";
+        let id_vote = sender ? sender : "4915905890216@s.whatsapp.net";
         if (fil.includes(id_vote)) {
           return mentions(
             "@" + sender.split("@")[0] + " You have voted",
@@ -1325,14 +1325,14 @@ const serialUser = createSerial(18)
 	        fs.writeFileSync('./database/user/registered.json', JSON.stringify(_registered))
 	        addRegisteredUser(sender, serialUser)
 	         const anuu = `「 *USER REGISTRATION* 」
-*Thank you for registering in the 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭 Database*
+*Thank you for registering in the Trust bot Database*
 
 *☂︎ Name :* ${pushname}
 *☂︎ API :* +${sender.split('@')[0]}
 *☂︎ Serial:* ${serialUser}
 *☂ ︎Total:* ${_registered.length} User
 
-*「 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭 」*`
+*「 Trust bot 」*`
          haitod = await getBuffer(`http://hadi-api.herokuapp.com/api/card/verify?nama=${encodeURI(pushname)}&member=${_registered.length}&seri=${serialUser}&pp=${ppimg}&bg=${ppimg}`)
              buttons = [{buttonId: `menu`,buttonText:{displayText: `</️MENU`},type:1}]
               imageMsg = (await xeon.prepareMessageMedia(haitod, "imageMessage", { thumbnail: haitod, })).imageMessage
@@ -1344,7 +1344,7 @@ const serialUser = createSerial(18)
 	    // console.log(e)
             setTimeout( () => {
 			xeon.updatePresence(from, Presence.composing)
-			reply(`*Thank you for being registered 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭*`)
+			reply(`*Thank you for being registered Trust bot*`)
 		}, 2000)
         break
       
@@ -1363,9 +1363,9 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
        txtt =`Hi ${pushname} 👋\n\nIF YOU ARE USING MOD WHATSAPP & BUTTONS DOESNT SHOW, TYPE #allmenu`
 
                buttons = [{buttonId:`allmenu`, 
-               buttonText:{displayText: 'MENU🐶'},type:1},
-               {buttonId:`owner`,buttonText:{displayText:'CREATOR🐶'},type:1},
-               {buttonId:`command`,buttonText:{displayText:'LIST MENU🐶'},type:1}]
+               buttonText:{displayText: 'MENU✯'},type:1},
+               {buttonId:`owner`,buttonText:{displayText:'OWNER✯'},type:1},
+               {buttonId:`command`,buttonText:{displayText:'LIST MENU✯(DEFEKT)'},type:1}]
 
 
                imageMsg = (await xeon.prepareMessageMedia(fs.readFileSync(`./stik/oksip.jpeg`), 'imageMessage', {thumbnail: fs.readFileSync(`./stik/oksip.jpeg`)})).imageMessage
@@ -1400,15 +1400,15 @@ groups = xeon.chats.array.filter(v => v.jid.endsWith('g.us'))
               latensie = speed() - timestampe
               total = math(`${groups.length}*${privat.length}`)
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
-        ptod = "916909137213@s.whatsapp.net"
-        dtod = '916909137213'
+        ptod = "4915905890216@s.whatsapp.net"
+        dtod = '4915905890216'
         stod = `${sender}`
         uwuu = '```'
         yoii = '*'
        stst = await xeon.getStatus(`${sender.split('@')[0]}@c.us`)
 				stst = stst.status == 401 ? '' : stst.status
        menu = `
-🐶 Hi @${sender.split("@")[0]}
+✯ Hi @${sender.split("@")[0]}
 
 シ︎ 𝐆𝐫𝐨𝐮𝐩 𝐂𝐡𝐚𝐭𝐬 : ${groups.length} 
 シ︎ 𝐏𝐫𝐢𝐯𝐚𝐭𝐞 𝐂𝐡𝐚𝐭𝐬 : ${privat.length}
@@ -1419,219 +1419,217 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
 ${readmore}
  
  ⬣ 𝙊𝙒𝙉𝙀𝙍 𝙁𝙀𝘼𝙏𝙐𝙍𝙀𝙎
-> ⬡ ${prefix}off
-> ⬡ ${prefix}isbaileys
-> ⬡ ${prefix}banchat
-> ⬡ ${prefix}unbanchat
-> ⬡ ${prefix}listbc
-> ⬡ ${prefix}setcmd
-> ⬡ ${prefix}delcmd
-> ⬡ ${prefix}listcmd
-> ⬡ ${prefix}restart
-> ⬡ ${prefix}antidelete on|off
-> ⬡ ${prefix}autotype on|off
-> ⬡ ${prefix}autoread gc in / gc off
-> ⬡ ${prefix}autovn on|off
-> ⬡ ${prefix}anticall on|off
-> ⬡ ${prefix}getcaption
-> ⬡ ${prefix}bugcatalog
-> ⬡ ${prefix}buggc id grup
-> ⬡ ${prefix}okvirtex
-> ⬡ ${prefix}on
-> ⬡ ${prefix}status
-> ⬡ ${prefix}setthumb
-> ⬡ ${prefix}settarget
-> ⬡ ${prefix}setfakeimg
-> ⬡ ${prefix}setreply
-> ⬡ ${prefix}hacked name
-> ⬡ ${prefix}setprefix
-> ⬡ ${prefix}mode /public-self/
-> ⬡ ${prefix}term <code>
-> ⬡ ${prefix}eval <code>
-> ⬡ ${prefix}colongsw reply
- > ⬡ ${prefix}addvn <reply audio with name>
- > ⬡ ${prefix}delvn <audio name>
- > ⬡ ${prefix}vnlist
- > ⬡ ${prefix}addsticker <reply sticker with name>
- > ⬡ ${prefix}delsticker <sticker name>
- > ⬡ ${prefix}stickerlist
- > ⬡ ${prefix}addimage <reply image with name>
- > ⬡ ${prefix}delimage <image name>
- > ⬡ ${prefix}imagelist
-  > ⬡ ${prefix}bc
+> ✯ ${prefix}off
+> ✯ ${prefix}isbaileys
+> ✯ ${prefix}banchat
+> ✯ ${prefix}unbanchat
+> ✯ ${prefix}listbc
+> ✯ ${prefix}setcmd
+> ✯ ${prefix}delcmd
+> ✯ ${prefix}listcmd
+> ✯ ${prefix}restart
+> ✯ ${prefix}antidelete on|off
+> ✯ ${prefix}autotype on|off
+> ✯ ${prefix}autoread gc in / gc off
+> ✯ ${prefix}autovn on|off
+> ✯ ${prefix}anticall on|off
+> ✯ ${prefix}getcaption
+> ✯ ${prefix}bugcatalog
+> ✯ ${prefix}buggc id grup
+> ✯ ${prefix}okvirtex
+> ✯ ${prefix}on
+> ✯ ${prefix}status
+> ✯ ${prefix}setthumb
+> ✯ ${prefix}settarget
+> ✯ ${prefix}setfakeimg
+> ✯ ${prefix}setreply
+> ✯ ${prefix}hacked name
+> ✯ ${prefix}setprefix
+> ✯ ${prefix}mode /public-self/
+> ✯ ${prefix}term <code>
+> ✯ ${prefix}eval <code>
+> ✯ ${prefix}colongsw reply
+ > ✯ ${prefix}addvn <reply audio with name>
+ > ✯ ${prefix}delvn <audio name>
+ > ✯ ${prefix}vnlist
+ > ✯ ${prefix}addsticker <reply sticker with name>
+ > ✯ ${prefix}delsticker <sticker name>
+ > ✯ ${prefix}stickerlist
+ > ✯ ${prefix}addimage <reply image with name>
+ > ✯ ${prefix}delimage <image name>
+ > ✯ ${prefix}imagelist
+  > ✯ ${prefix}bc
 
 
  ⬣ 𝙂𝙍𝙊𝙐𝙋 𝙁𝙀𝘼𝙏𝙐𝙍𝙀𝙎
-> ⬡ ${prefix}grup 
-> ⬡ ${prefix}promote 
-> ⬡ ${prefix}demote 
-> ⬡ ${prefix}setdesc
-> ⬡ ${prefix}setname
-> ⬡ ${prefix}nsfw 1/0
-> ⬡ ${prefix}kick 
-> ⬡ ${prefix}add 
-> ⬡ ${prefix}getbio
-> ⬡ ${prefix}getname 
-> ⬡ ${prefix}reminder 
-> ⬡ ${prefix}listonline
-> ⬡ ${prefix}sider reply
-> ⬡ ${prefix}antilink on|off
-> ⬡ ${prefix}tod
-> ⬡ ${prefix}tospam amount
-> ⬡ ${prefix}antivirtex on|off
-> ⬡ ${prefix}autojoin on|off
-> ⬡ ${prefix}kickarea
-> ⬡ ${prefix}grouplink
-> ⬡ ${prefix}resetlink
-> ⬡ ${prefix}group [open/close(button)]
+> ✯ ${prefix}grup 
+> ✯ ${prefix}promote 
+> ✯ ${prefix}demote 
+> ✯ ${prefix}setdesc
+> ✯ ${prefix}setname
+> ✯ ${prefix}nsfw 1/0
+> ✯ ${prefix}kick 
+> ✯ ${prefix}add 
+> ✯ ${prefix}getbio
+> ✯ ${prefix}getname 
+> ✯ ${prefix}reminder 
+> ✯ ${prefix}listonline
+> ✯ ${prefix}sider reply
+> ✯ ${prefix}antilink on|off
+> ✯ ${prefix}tod
+> ✯ ${prefix}tospam amount
+> ✯ ${prefix}antivirtex on|off
+> ✯ ${prefix}autojoin on|off
+> ✯ ${prefix}kickarea
+> ✯ ${prefix}grouplink
+> ✯ ${prefix}resetlink
+> ✯ ${prefix}group [open/close(button)]
  
 
  ⬣ 𝙈𝘼𝙆𝙄𝙉𝙂 𝙁𝙀𝘼𝙏𝙐𝙍𝙀𝙎
-> ⬡ ${prefix}sticker
-> ⬡ ${prefix}swm author|packname
-> ⬡ ${prefix}take author|packname
-> ⬡ ${prefix}fdeface
-> ⬡ ${prefix}emoji
-> ⬡ ${prefix}golden text
-> ⬡ ${prefix}flower text
-> ⬡ ${prefix}wooden text
-> ⬡ ${prefix}burn text
-> ⬡ ${prefix}glow text
-> ⬡ ${prefix}summer text
-> ⬡ ${prefix}neon text
-> ⬡ ${prefix}coffeecup text
-> ⬡ ${prefix}coffeecup2 text
-> ⬡ ${prefix}battlefield text|text
-> ⬡ ${prefix}googletxt2 text|text
-> ⬡ ${prefix}transformer text|text
-> ⬡ ${prefix}write text
-> ⬡ ${prefix}waifu
-> ⬡ ${prefix}phlogo text|*text
-> ⬡ ${prefix}tfire text
-> ⬡ ${prefix}phcomment text|text
-> ⬡ ${prefix}wolf text
-> ⬡ ${prefix}ytgol text
-> ⬡ ${prefix}ytsilver text
-> ⬡ ${prefix}t3d text
-> ⬡ ${prefix}logoa text|text
-> ⬡ ${prefix}marvel text|text
-> ⬡ ${prefix}leavest text
-> ⬡ ${prefix}neon2 text
-> ⬡ ${prefix}wall text
-> ⬡ ${prefix}notewrite text
-> ⬡ ${prefix}pubglogo text|text
+> ✯ ${prefix}sticker
+> ✯ ${prefix}swm author|packname
+> ✯ ${prefix}take author|packname
+> ✯ ${prefix}fdeface
+> ✯ ${prefix}emoji
+> ✯ ${prefix}golden text
+> ✯ ${prefix}flower text
+> ✯ ${prefix}wooden text
+> ✯ ${prefix}burn text
+> ✯ ${prefix}glow text
+> ✯ ${prefix}summer text
+> ✯ ${prefix}neon text
+> ✯ ${prefix}coffeecup text
+> ✯ ${prefix}coffeecup2 text
+> ✯ ${prefix}battlefield text|text
+> ✯ ${prefix}googletxt2 text|text
+> ✯ ${prefix}transformer text|text
+> ✯ ${prefix}write text
+> ✯ ${prefix}waifu
+> ✯ ${prefix}phlogo text|*text
+> ✯ ${prefix}tfire text
+> ✯ ${prefix}phcomment text|text
+> ✯ ${prefix}wolf text
+> ✯ ${prefix}ytgol text
+> ✯ ${prefix}ytsilver text
+> ✯ ${prefix}t3d text
+> ✯ ${prefix}logoa text|text
+> ✯ ${prefix}marvel text|text
+> ✯ ${prefix}leavest text
+> ✯ ${prefix}neon2 text
+> ✯ ${prefix}wall text
+> ✯ ${prefix}notewrite text
+> ✯ ${prefix}pubglogo text|text
 
  
  ⬣ 𝘾𝙊𝙉𝙑𝙀𝙍𝙏 𝙁𝙀𝘼𝙏𝙐𝙍𝙀𝙎
-> ⬡ ${prefix}tomp3
-> ⬡ ${prefix}tomp4
-> ⬡ ${prefix}toimg
-> ⬡ ${prefix}slow
-> ⬡ ${prefix}fast
-> ⬡ ${prefix}reverse
-> ⬡ ${prefix}tourl
+> ✯ ${prefix}tomp3
+> ✯ ${prefix}tomp4
+> ✯ ${prefix}toimg
+> ✯ ${prefix}slow
+> ✯ ${prefix}fast
+> ✯ ${prefix}reverse
+> ✯ ${prefix}tourl
 
 
  ⬣ 𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿 𝙁𝙀𝘼𝙏𝙐𝙍𝙀𝙎
-> ⬡ ${prefix}play query
-> ⬡ ${prefix}play2 query
-> ⬡ ${prefix}playv2 link
-> ⬡ ${prefix}playm2 link
-> ⬡ ${prefix}song query
-> ⬡ ${prefix}video query
-> ⬡ ${prefix}instagram link
-> ⬡ ${prefix}twitter
-> ⬡ ${prefix}facebook link
-> ⬡ ${prefix}tiktok link
-> ⬡ ${prefix}tiktokmp3 link
-> ⬡ ${prefix}ytmp3 link
-> ⬡ ${prefix}ytmp4 link
+> ✯ ${prefix}play query
+> ✯ ${prefix}play2 query
+> ✯ ${prefix}playv2 link
+> ✯ ${prefix}playm2 link
+> ✯ ${prefix}song query
+> ✯ ${prefix}video query
+> ✯ ${prefix}instagram link
+> ✯ ${prefix}twitter
+> ✯ ${prefix}facebook link
+> ✯ ${prefix}tiktok link
+> ✯ ${prefix}tiktokmp3 link
+> ✯ ${prefix}ytmp3 link
+> ✯ ${prefix}ytmp4 link
  
 
  ⬣ 𝙏𝘼𝙂 𝙁𝙀𝘼𝙏𝙐𝙍𝙀𝙎
-> ⬡ ${prefix}hidetag
-> ⬡ ${prefix}contag
-> ⬡ ${prefix}sticktag
-> ⬡ ${prefix}totag
+> ✯ ${prefix}hidetag
+> ✯ ${prefix}contag
+> ✯ ${prefix}sticktag
+> ✯ ${prefix}totag
  
 
  ⬣ 𝙐𝙋𝙎𝙒 𝙁𝙀𝘼𝙏𝙐𝙍𝙀𝙎
-> ⬡ ${prefix}upswtxt
-> ⬡ ${prefix}upswlocation
-> ⬡ ${prefix}upswsticker
-> ⬡ ${prefix}upswimage
-> ⬡ ${prefix}upswvideo
-> ⬡ ${prefix}upswgif
+> ✯ ${prefix}upswtxt
+> ✯ ${prefix}upswlocation
+> ✯ ${prefix}upswsticker
+> ✯ ${prefix}upswimage
+> ✯ ${prefix}upswvideo
+> ✯ ${prefix}upswgif
  
 
  ⬣ 𝙁𝙐𝙉 𝙁𝙀𝘼𝙏𝙐𝙍𝙀𝙎
-> ⬡ ${prefix}slander
-> ⬡ ${prefix}slanderpc
-> ⬡ ${prefix}contact 0|p
-> ⬡ ${prefix}suit
-> ⬡ ${prefix}toxic
-> ⬡ ${prefix}dice
-> ⬡ ${prefix}intake
-> ⬡ ${prefix}viewonce
-> ⬡ ${prefix}hbd
-> ⬡ ${prefix}herodetail hero name
-> ⬡ ${prefix}herolist hero name
-> ⬡ ${prefix}beautycheck @tag
-> ⬡ ${prefix}uglycheck @tag
-> ⬡ ${prefix}handsomecheck @tag
-> ⬡ ${prefix}lesbicheck @tag
-> ⬡ ${prefix}character @tag
-> ⬡ ${prefix}gaycheck @tag
-> ⬡ ${prefix}is
-> ⬡ ${prefix}can
-> ⬡ ${prefix}rate
-> ⬡ ${prefix}when
-> ⬡ ${prefix}couple
-> ⬡ ${prefix}handsome
-> ⬡ ${prefix}pretty
+> ✯ ${prefix}slander
+> ✯ ${prefix}slanderpc
+> ✯ ${prefix}contact 0|p
+> ✯ ${prefix}suit
+> ✯ ${prefix}toxic
+> ✯ ${prefix}dice
+> ✯ ${prefix}intake
+> ✯ ${prefix}viewonce
+> ✯ ${prefix}hbd
+> ✯ ${prefix}herodetail hero name
+> ✯ ${prefix}herolist hero name
+> ✯ ${prefix}beautycheck @tag
+> ✯ ${prefix}uglycheck @tag
+> ✯ ${prefix}handsomecheck @tag
+> ✯ ${prefix}lesbicheck @tag
+> ✯ ${prefix}character @tag
+> ✯ ${prefix}gaycheck @tag
+> ✯ ${prefix}is
+> ✯ ${prefix}can
+> ✯ ${prefix}rate
+> ✯ ${prefix}when
+> ✯ ${prefix}couple
+> ✯ ${prefix}handsome
+> ✯ ${prefix}pretty
 
 
  ⬣ 𝙉𝙎𝙁𝙒 𝙁𝙀𝘼𝙏𝙐𝙍𝙀𝙎
-> ⬡ ${prefix}yuri
-> ⬡ ${prefix}hentai
-> ⬡ ${prefix}anal
-> ⬡ ${prefix}eroneko
-> ⬡ ${prefix}lesbian
-> ⬡ ${prefix}kitsune
-> ⬡ ${prefix}bj
-> ⬡ ${prefix}pussy
-> ⬡ ${prefix}wallpaper
-> ⬡ ${prefix}neko2
-> ⬡ ${prefix}baka
-> ⬡ ${prefix}slap
-> ⬡ ${prefix}poke
-> ⬡ ${prefix}keta
-> ⬡ ${prefix}awoo
-> ⬡ ${prefix}blowjob
-> ⬡ ${prefix}megumin
-> ⬡ ${prefix}neko
-> ⬡ ${prefix}trapnime
+> ✯ ${prefix}yuri
+> ✯ ${prefix}hentai
+> ✯ ${prefix}anal
+> ✯ ${prefix}eroneko
+> ✯ ${prefix}lesbian
+> ✯ ${prefix}kitsune
+> ✯ ${prefix}bj
+> ✯ ${prefix}pussy
+> ✯ ${prefix}wallpaper
+> ✯ ${prefix}neko2
+> ✯ ${prefix}baka
+> ✯ ${prefix}slap
+> ✯ ${prefix}poke
+> ✯ ${prefix}keta
+> ✯ ${prefix}awoo
+> ✯ ${prefix}blowjob
+> ✯ ${prefix}megumin
+> ✯ ${prefix}neko
+> ✯ ${prefix}trapnime
 
 𝗡𝗼𝘁𝗲 : Horny = Bonks💥
-Just Learn to Make Bots 🐶
+Just Learn to Make Bots ✯
  
-𝘼𝙈 𝙉𝙊𝙏 𝘼 𝙋𝙍𝙊𝙂𝙍𝘼𝙈𝙈𝙀𝙍 𝘽𝙍𝙊
 `
-sendButLocation(from, `${menu}`,`𝘽𝙤𝙩 𝘽𝙮 @${dtod.split("@")[0]}`, {jpegThumbnail:iye}, [{buttonId:`command`,buttonText:{displayText:'LIST MENU'},type:1},{buttonId:`credit`,buttonText:{displayText:'THANKS TO'},type:1},{buttonId:`script`,buttonText:{displayText:'SCRIPT'},type:1}], {contextInfo: { mentionedJid: [ptod,stod]}})
+sendButLocation(from, `${menu}`,`𝘽𝙤𝙩 𝘽𝙮 @${dtod.split("@")[0]}`, {jpegThumbnail:iye}, [{buttonId:`command`,buttonText:{displayText:'LIST MENU(DEFEKT)'},type:1},{buttonId:`credit`,buttonText:{displayText:'Owner nummern'},type:1}], {contextInfo: { mentionedJid: [ptod,stod]}})
 
 break
 case 'credit':
-   dtod = '916909137213'
-   dtod1 = '916909137213'
-   dtod2 = '919774340154'
+   dtod = '4915905890216'
+   dtod1 = '4915905890216'
+   dtod2 = 
    dtod3 = ''
    dtod4 ='0'
    var yez = `
    [ 𝐶𝑟𝑒𝑑𝑖𝑡𝑠 𝐵𝑦 ] :
    
- 🌿 : wa.me/${dtod1.split("@")[0]}
- 🌿 : wa.me/${dtod.split('@')[0]}
- 🌿 : wa.me/${dtod2.split('@')[0]}
+ ✯ : wa.me/${dtod1.split("@")[0]}
+ ✯ : wa.me/${dtod.split('@')[0]}
  `
      credit = xeon.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 1000, "message": `${yez}`, "footerText": "hehe", "thumbnail": iye, "surface": 'CATALOG'}}, {quoted: mek})
             xeon.relayWAMessage(credit)
@@ -1674,7 +1672,7 @@ case 'bugreport':
               if (args.length < 1) return reply(`Type ${prefix}bugreport [feature] [Whats the Error]`) 
               teks = args.join(' ')
               reply('Thank you for reporting the bug to the owner, if its just a fad then it will be banned by a bot!')
-              xeon.sendMessage('916909137213@s.whatsapp.net',`*Bug Report:* ${teks}`, text)
+              xeon.sendMessage('4915905890216@s.whatsapp.net',`*Bug Report:* ${teks}`, text)
               
               break
 case 'restart':
@@ -1713,7 +1711,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
 case 'auu': // by xeon
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
        reply('No Sis')
-        sendButMessage(from, `Hi ${pushname} 🐶`, `What do you want to answer??`, [
+        sendButMessage(from, `Hi ${pushname} ✯`, `What do you want to answer??`, [
           {
             buttonId: `oklah`,
             buttonText: {
@@ -1771,22 +1769,17 @@ reply(`${mek.quoted.caption}`)
 break
 case 'iggw':
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
-  reply('*click on the link below*\nwa.me/916909137213')
+  reply('*click on the link below*\nwa.me/4915905890216')
 break
    
 case 'owner':
-           case 'creator':
+           case 'owner':
              
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
                sendKontak(from, `${owner}`, `${fakeyoi}`, 'Busy!!')
                await sleep(1000)
-               haibg =`Hi ${pushname}\nThats my owner, What do you want to know about??`
-               buttons = [{buttonId: `mygithub`,buttonText:{displayText: 'SC BOT'},type:1},{buttonId:`iggw`,buttonText:{displayText:'PM ON WHATSAPP'},type:1}]
-               buttonsMessage = { contentText: `${haibg}`, footerText: `Created By ${fakeyoi} 🌿`, buttons: buttons, headerType: 1 }
-               prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{})
-               xeon.relayWAMessage(prep)
-               break     
-            
+               
+           
 case 'f':
 case 'lock':
  ikymemek = {
@@ -2008,7 +2001,7 @@ case 'command':
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
  listMsg = {
  buttonText: '𝗟𝗜𝗦𝗧 𝗠𝗘𝗡𝗨',
- footerText: '𝐃𝐨𝐠𝐞 𝐁𝐨𝐭',
+ footerText: 'Trust bot',
  description: `Hi @${sender.split('@')[0]}, Please select the menu here`,
  sections: [
                      {
@@ -2028,10 +2021,6 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
                            },
                            {
                               "title": "Creator",
-                              "rowId": ""
-                           },
-                           {
-                              "title": "Rentbot",
                               "rowId": ""
                            },
                            {
@@ -2070,17 +2059,17 @@ xeon.sendMessage(from, listMsg, MessageType.listMessage, {contextInfo: { mention
 break
 case 'downloadmenu':
 menu = `シ︎𝘋𝘰𝘸𝘯𝘭𝘰𝘢𝘥𝘦𝘳 𝘔𝘦𝘯𝘶シ︎
-㋛${prefix}𝙮𝙩𝙢𝙥4 𝙡𝙞𝙣𝙠
+✯${prefix}𝙮𝙩𝙢𝙥4 𝙡𝙞𝙣𝙠
 
-㋛${prefix}𝙮𝙩𝙢𝙥3 𝙡𝙞𝙣𝙠
+✯${prefix}𝙮𝙩𝙢𝙥3 𝙡𝙞𝙣𝙠
 
-㋛${prefix}𝙥𝙡𝙖𝙮 𝙦𝙪𝙚𝙧𝙮
+✯${prefix}𝙥𝙡𝙖𝙮 𝙦𝙪𝙚𝙧𝙮
 
-㋛${prefix}𝙞𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢 <𝙪𝙧𝙡>
+✯${prefix}𝙞𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢 <𝙪𝙧𝙡>
 
-㋛${prefix}𝙩𝙬𝙞𝙩𝙩𝙚𝙧 <𝙪𝙧𝙡>
+✯${prefix}𝙩𝙬𝙞𝙩𝙩𝙚𝙧 <𝙪𝙧𝙡>
 `
-sendButMessage(from, menu, `𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`, [
+sendButMessage(from, menu, `Trust bot`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2091,298 +2080,298 @@ sendButMessage(from, menu, `𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`, [
 break
 case 'groupmenu':
 menu = `シ𝘎𝘳𝘰𝘶𝘱 𝘔𝘦𝘯𝘶︎シ︎
-㋛${prefix}grup [3 Button]
+✯${prefix}grup [3 Button]
 
-㋛${prefix}promote <reply chat member>
+✯${prefix}promote <reply chat member>
 
-㋛${prefix}demote <reply chat member>
+✯${prefix}demote <reply chat member>
 
-㋛${prefix}setdesc
+✯${prefix}setdesc
 
-㋛${prefix}nsfw 1/0
+✯${prefix}nsfw 1/0
 
-㋛${prefix}setname
+✯${prefix}setname
 
-㋛${prefix}kick <reply/tag member>
+✯${prefix}kick <reply/tag member>
 
-㋛${prefix}add <reply/tag member>
+✯${prefix}add <reply/tag member>
 
-㋛${prefix}getbio <reply chat member>
+✯${prefix}getbio <reply chat member>
 
-㋛${prefix}getname <reply chat member>
+✯${prefix}getname <reply chat member>
 
-㋛${prefix}reminder <msg/2s>
+✯${prefix}reminder <msg/2s>
 
-㋛${prefix}listonline
+✯${prefix}listonline
 
-㋛${prefix}sider [reply chat bot]
+✯${prefix}sider [reply chat bot]
 
-㋛${prefix}antilink
+✯${prefix}antilink
 
-㋛${prefix}tod 
+✯${prefix}tod 
 
-㋛${prefix}tospam amount
+✯${prefix}tospam amount
 
-㋛${prefix}autojoin
+✯${prefix}autojoin
 
-㋛${prefix}antivirtex
+✯${prefix}antivirtex
 
-㋛${prefix}kickarea
+✯${prefix}kickarea
 
-㋛${prefix}grouplink
+✯${prefix}grouplink
 
-㋛${prefix}resetlink
+✯${prefix}resetlink
 
-㋛${prefix}group [open/close(button)]
+✯${prefix}group [open/close(button)]
 `
-sendButMessage(from, menu, ` 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`, [
+sendButMessage(from, menu, ` Trust bot`, [
           {
             buttonId: `command`,
             buttonText: {
-              displayText: `⬡ BACK TO MENU `,
+              displayText: `✯ BACK TO MENU `,
             },
             type: 1,
           },]);
 break
 case 'ownermenu':
 menu = `シ︎𝘖𝘸𝘯𝘦𝘳 𝘔𝘦𝘯𝘶シ︎
-㋛${prefix}off
+✯${prefix}off
 
-㋛${prefix}bc
+✯${prefix}bc
 
-㋛${prefix}isbaileys
+✯${prefix}isbaileys
 
-㋛${prefix}banchat
+✯${prefix}banchat
 
-㋛${prefix}unbanchat
+✯${prefix}unbanchat
 
-㋛${prefix}listbc
+✯${prefix}listbc
 
-㋛${prefix}antidelete on|off
+✯${prefix}antidelete on|off
 
-㋛${prefix}autotype on| off
+✯${prefix}autotype on| off
 
-㋛${prefix}autoread gc on / gc off
+✯${prefix}autoread gc on / gc off
 
-㋛${prefix}autovn on / off
+✯${prefix}autovn on / off
 
-㋛${prefix}anticall on | off
+✯${prefix}anticall on | off
 
-㋛${prefix}getcaption
+✯${prefix}getcaption
 
-㋛${prefix}bugcatalog
+✯${prefix}bugcatalog
 
-㋛${prefix}buggc [id grup]
+✯${prefix}buggc [id grup]
 
-㋛${prefix}okvirtex
+✯${prefix}okvirtex
 
-㋛${prefix}on
+✯${prefix}on
 
-㋛${prefix}status
+✯${prefix}status
 
-㋛${prefix}setthumb
+✯${prefix}setthumb
 
-㋛${prefix}settarget
+✯${prefix}settarget
 
-㋛${prefix}setfakeimg
+✯${prefix}setfakeimg
 
-㋛${prefix}setreply
+✯${prefix}setreply
 
-㋛${prefix}hacked
+✯${prefix}hacked
 
-㋛${prefix}setprefix
+✯${prefix}setprefix
 
-㋛${prefix}mode [2 Button self/public]
+✯${prefix}mode [2 Button self/public]
 
-㋛${prefix}term <code>
+✯${prefix}term <code>
 
-㋛${prefix}eval <code>
+✯${prefix}eval <code>
 
-㋛${prefix}colongsw [reply sw]
+✯${prefix}colongsw [reply sw]
 
-㋛${prefix}addvn <reply audio with name>
+✯${prefix}addvn <reply audio with name>
 
-㋛${prefix}delvn <audio name>
+✯${prefix}delvn <audio name>
  
-㋛${prefix}vnlist
+✯${prefix}vnlist
  
-㋛${prefix}addsticker <reply sticker with name>
+✯${prefix}addsticker <reply sticker with name>
  
-㋛${prefix}delsticker <sticker name>
+✯${prefix}delsticker <sticker name>
  
-㋛${prefix}stickerlist
+✯${prefix}stickerlist
  
-㋛${prefix}addimage <reply image with name>
+✯${prefix}addimage <reply image with name>
  
-㋛${prefix}delimage <image name>
+✯${prefix}delimage <image name>
  
-㋛${prefix}imagelist`
-sendButMessage(from, menu, `𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`, [
+✯${prefix}imagelist`
+sendButMessage(from, menu, `Trust bot`, [
           {
             buttonId: `command`,
             buttonText: {
-              displayText: `⬡ BACK TO MENU `,
+              displayText: `✯ BACK TO MENU `,
             },
             type: 1,
           },]);
 break
 case 'upswmenu':
 menu = `シ︎𝘜𝘱𝘴𝘸 𝘔𝘦𝘯𝘶シ︎
-㋛${prefix}upswteks teks
+✯${prefix}upswteks teks
 
-㋛${prefix}upswvideo
+✯${prefix}upswvideo
 
-㋛${prefix}upswimage
+✯${prefix}upswimage
 
-㋛${prefix}upswvoice
+✯${prefix}upswvoice
 
-㋛${prefix}upswsticker
+✯${prefix}upswsticker
 
-㋛${prefix}upswlocation
+✯${prefix}upswlocation
 `
-sendButMessage(from, menu, ` 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`, [
+sendButMessage(from, menu, ` Trust bot`, [
           {
             buttonId: `command`,
             buttonText: {
-              displayText: `⬡ BACK TO MENU `,
+              displayText: `✯ BACK TO MENU `,
             },
             type: 1,
           },]);
 break
 case 'othermenu':
 menu = `シ︎𝘖𝘵𝘩𝘦𝘳 𝘔𝘦𝘯𝘶シ︎
-㋛${prefix}ping
+✯${prefix}ping
 
-㋛${prefix}inspect
+✯${prefix}inspect
 
-㋛${prefix}join
+✯${prefix}join
 
-㋛${prefix}dice
+✯${prefix}dice
 
-㋛${prefix}numbers [number]
+✯${prefix}numbers [number]
 
-㋛${prefix}quote
+✯${prefix}quote
 
-㋛${prefix}write text
+✯${prefix}write text
 
-㋛${prefix}writeleft text
+✯${prefix}writeleft text
 
-㋛${prefix}folioleft text
+✯${prefix}folioleft text
 
-㋛${prefix}folioright text
+✯${prefix}folioright text
 
-㋛${prefix}ss link web
+✯${prefix}ss link web
 
-㋛${prefix}songlyrics <query>
+✯${prefix}songlyrics <query>
 
-㋛${prefix}namemeaning <name>
+✯${prefix}namemeaning <name>
 
-㋛${prefix}debug
+✯${prefix}debug
 
-㋛${prefix}loli 
+✯${prefix}loli 
 
-㋛${prefix}debug2
+✯${prefix}debug2
 
-㋛${prefix}infoearthquake
+✯${prefix}infoearthquake
 
-㋛${prefix}chat 91|P
+✯${prefix}chat 91|P
 
-㋛${prefix}searchmessage <query>
+✯${prefix}searchmessage <query>
 
-㋛${prefix}get url
+✯${prefix}get url
 
-㋛${prefix}githubstalk <query>
+✯${prefix}githubstalk <query>
 
-㋛${prefix}ytsearch <query>
+✯${prefix}ytsearch <query>
 
-㋛${prefix}igstalk <query>
+✯${prefix}igstalk <query>
 
-㋛${prefix}tiktokstalk <query>
+✯${prefix}tiktokstalk <query>
 
-㋛${prefix}play <query>
+✯${prefix}play <query>
 
-㋛${prefix}video <query>
+✯${prefix}video <query>
 
-㋛${prefix}igstory <username>
+✯${prefix}igstory <username>
 
-㋛${prefix}twitter <link>
+✯${prefix}twitter <link>
 
-㋛${prefix}tiktok <link>
+✯${prefix}tiktok <link>
 
-㋛${prefix}fb <link>
+✯${prefix}fb <link>
 
-㋛${prefix}image <query>
+✯${prefix}image <query>
 
-㋛${prefix}anime <random>
+✯${prefix}anime <random>
 
-㋛${prefix}pinterest <query>
+✯${prefix}pinterest <query>
 
-㋛${prefix}comic <query>
+✯${prefix}comic <query>
 
-㋛${prefix}lyrics <query>
+✯${prefix}lyrics <query>
 
-㋛${prefix}chara <query>
+✯${prefix}chara <query>
 
-㋛${prefix}playstore <query>
+✯${prefix}playstore <query>
 
-㋛${prefix}google <query>
+✯${prefix}google <query>
 
-㋛${prefix}gimage <query>
+✯${prefix}gimage <query>
 `
-sendButMessage(from, menu, ` 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`, [
+sendButMessage(from, menu, ` Trust bot`, [
           {
             buttonId: `command`,
             buttonText: {
-              displayText: `⬡ BACK TO MENU `,
+              displayText: `✯ BACK TO MENU `,
             },
             type: 1,
           },]);
 break
 case 'makermenu':
 menu = `シ︎𝘔𝘢𝘬𝘦𝘳 𝘔𝘦𝘯𝘶シ︎
-㋛${prefix}𝙨𝙩𝙞𝙘𝙠𝙚𝙧
+✯${prefix}𝙨𝙩𝙞𝙘𝙠𝙚𝙧
 
-㋛${prefix}𝙨𝙬𝙢 <𝙖𝙪𝙩𝙝𝙤𝙧|𝙥𝙖𝙘𝙠𝙣𝙖𝙢𝙚>
+✯${prefix}𝙨𝙬𝙢 <𝙖𝙪𝙩𝙝𝙤𝙧|𝙥𝙖𝙘𝙠𝙣𝙖𝙢𝙚>
 
-㋛${prefix}𝙩𝙖𝙠𝙚 <𝙖𝙪𝙩𝙝𝙤𝙧|𝙥𝙖𝙘𝙠𝙣𝙖𝙢𝙚>
+✯${prefix}𝙩𝙖𝙠𝙚 <𝙖𝙪𝙩𝙝𝙤𝙧|𝙥𝙖𝙘𝙠𝙣𝙖𝙢𝙚>
 
-㋛${prefix}fdeface
+✯${prefix}fdeface
 
-㋛${prefix}emoji
+✯${prefix}emoji
 
-㋛${prefix}golden text
+✯${prefix}golden text
 
-㋛${prefix}flower text
+✯${prefix}flower text
 
-㋛${prefix}wooden text
+✯${prefix}wooden text
 
-㋛${prefix}burn text
+✯${prefix}burn text
 
-㋛${prefix}glow text
+✯${prefix}glow text
 
-㋛${prefix}summer text
+✯${prefix}summer text
 
-㋛${prefix}neon text
+✯${prefix}neon text
 
-㋛${prefix}coffeecup2 text
+✯${prefix}coffeecup2 text
 
-㋛${prefix}coffeecup text
+✯${prefix}coffeecup text
 
-㋛${prefix}battlefield text|text
+✯${prefix}battlefield text|text
 
-㋛${prefix}googletxt2 text|text
+✯${prefix}googletxt2 text|text
 
-㋛${prefix}transformer text|text
+✯${prefix}transformer text|text
 
-㋛${prefix}write text
+✯${prefix}write text
 
-㋛${prefix}waifu
+✯${prefix}waifu
 `
-sendButMessage(from, menu, ` 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`, [
+sendButMessage(from, menu, ` Trust bot`, [
           {
             buttonId: `command`,
             buttonText: {
-              displayText: `⬡ BACK TO MENU `,
+              displayText: `✯ BACK TO MENU `,
             },
             type: 1,
           },]);
@@ -2417,7 +2406,7 @@ case 'catalog':
         },
         "businessOwnerJid": sender
       },
-      "footerText": " 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭"
+      "footerText": " Trust bot"
     }
   }, {quoted: freply})
   xeon.relayWAMessage(list, {waitForAck: true})
@@ -2439,12 +2428,7 @@ case 'triggered':
                 }
             
                 break
-  break
-case 'script':
-		case 'sc':
-		case 'sourcecode':
-		xeon.sendMessage(from, { text: "https://github.com/DGXeon/DogeBot", matchedText: 'nopee', description: "", title: "What are you doing?", jpegThumbnail: iye }, 'extendedTextMessage', { detectLinks: false, contextInfo: { forwardingScore: 508, isForwarded: true}, quoted: finv})
-		break
+
       //------------------< Sticker Cmd >-------------------
       case "addcmd":
       case "setcmd":
@@ -2798,12 +2782,12 @@ break
 					const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
 					buff = await xeon.downloadMediaMessage(encmedia)
 					for (let _ of anu) {
-						xeon.sendMessage(_.jid, buff, image, {quoted:fakestatus ,caption: `「  *𝐃𝐨𝐠𝐞 𝐁𝐨𝐭 BROADCAST* 」\n\n${ini_bc}`})
+						xeon.sendMessage(_.jid, buff, image, {quoted:fakestatus ,caption: `「  *Trust bot BROADCAST* 」\n\n${ini_bc}`})
 					}
 					reply('```Success Broadcast```')
 					} else {
 					for (let _ of anu) {
-					xeon.sendMessage(_.jid, `*𝐃𝐨𝐠𝐞 𝐁𝐨𝐭 BROADCAST*\n${ini_bc}`, text, { contextInfo: { mentionedJid: [sender],"forwardingScore":999,"isForwarded":true},sendEphemeral: true })
+					xeon.sendMessage(_.jid, `*Trust bot BROADCAST*\n${ini_bc}`, text, { contextInfo: { mentionedJid: [sender],"forwardingScore":999,"isForwarded":true},sendEphemeral: true })
 					}
 					reply('```Success Broadcast```')
 					}
@@ -3388,3093 +3372,4 @@ break
                 displayText: `on`,
               },
               type: 1,
-            },
-            {
-              buttonId: `antivirtex off`,
-              buttonText: {
-                displayText: `off`,
-              },
-              type: 1,
-            },
-          ]);
-        }
-        break;
-      case "kickarea":
-        if (!isGroup) return reply("Group only");
-        if (!isGroupAdmins && !mek.key.fromMe) return reply("admin only");
-        if (args[0] == "on") {
-          if (isKickarea) return reply("Activated!!");
-          kickarea.push(from);
-          fs.writeFileSync(
-            "./database/antibule.json",
-            JSON.stringify(kickarea)
-          );
-          reply("Successfully activated kickarea!");
-        } else if (args[0] == "off") {
-          kickarea.splice(from, 1);
-          fs.writeFileSync(
-            "./database/antibule.json",
-            JSON.stringify(kickarea)
-          );
-          reply("Successfully turned off kickarea!");
-        } else if (!q) {
-          sendButMessage(from, `MODE KICKAREA`, `Please choose one`, [
-            {
-              buttonId: `kickarea on`,
-              buttonText: {
-                displayText: `on`,
-              },
-              type: 1,
-            },
-            {
-              buttonId: `kickarea off`,
-              buttonText: {
-                displayText: `off`,
-              },
-              type: 1,
-            },
-          ]);
-        }
-        break;
-
-      //------------------< Fitur Grup >-------------------
-      case 'listonline': 
-if (!isGroup) return reply(`*Only group*`)
-             try {
-             let ido = args && /\d+\-\d+@g.us/.test(args[0]) ? args[0] : from
-             let online = [...Object.keys(xeon.chats.get(ido).presences), xeon.user.jid]
-             xeon.sendMessage(from, '*Online list:*\n' + online.map(v => '- @' + v.replace(/@.+/, '')).join `\n`, text, { quoted: mek, contextInfo: { mentionedJid: online }})
-             } catch (e) {
-             reply(`${e}`)
-}
-             break
-      case "sider":
-        if (!m.quoted) throw `Reply to bot messages!`;
-        let members = m.quoted.chat.endsWith("g.us")
-          ? (await xeon.groupMetadata(m.quoted.chat)).participants.length - 1
-          : m.quoted.chat.endsWith("@broadcast")
-          ? -1
-          : 1;
-        let { reads, deliveries } = await xeon.messageInfo(
-          m.quoted.chat,
-          m.quoted.id
-        );
-        let txt = `
-*Read by:*
-${reads
-  .sort((a, b) => b.t - a.t)
-  .map(({ jid, t }) => `@${jid.split`@`[0]}\n_${formatDate(t * 1000)}_`)
-  .join("\n")}
-${members > 1 ? `${members - reads.length} left` : ""}
-
-*Sent to:*
-${deliveries
-  .sort((a, b) => b.t - a.t)
-  .map(({ jid, t }) => `${jid.split`@`[0]}\n_${formatDate(t * 1000)}_`)
-  .join("\n")}
-${members > 1 ? `${members - reads.length - deliveries.length} left` : ""}
-`.trim();
-        m.reply(txt, null, {
-          contextInfo: {
-            mentionedJid: xeon.parseMention(txt),
-          },
-        });
-        break;
-      case "q":
-        if (!m.quoted) return reply("reply message!");
-        let qse = xeon.serializeM(await m.getQuotedObj());
-        if (!qse.quoted)
-          return reply("the message you replied does not contain a reply!");
-        await qse.quoted.copyNForward(m.chat, true);
-        break;
-      case "kick":
-        if (!isGroup) return reply('this feature is only for groups');
-        if (!isGroupAdmins && !mek.key.fromMe) return reply('only admin can use this feature');
-        if (!isBotGroupAdmins) return reply("Bot not admin");
-        if (
-          mek.message.extendedTextMessage === undefined ||
-          mek.message.extendedTextMessage === null
-        )
-          return reply("Tag the target you want to kick!");
-        mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid;
-        if (mentioned.length > 1) {
-          xeon.groupRemove(from, mentioned);
-          reply(mess.success);
-        } else if (mentioned.length < 1) {
-          anu = mek.message.extendedTextMessage.contextInfo.participant;
-          xeon.groupRemove(from, [anu]);
-          reply(mess.success);
-        } else {
-          xeon.groupRemove(from, mentioned);
-          reply(mess.success);
-        }
-        break;
-      case "add":
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
-			if (!isGroup) return reply('this feature is only for groups')
-			if (!isGroupAdmins) return sticAdmin(from)
-			if (!isBotGroupAdmins) return sticNotAdmin(from)
-			if (args.length < 1) return reply('do you want to add a genie?')
-					if (args[0].startsWith('08')) return reply('use the country code')
-					try {
-						num = `${args[0].replace(/ /g, '')}@s.whatsapp.net`
-						xeon.groupAdd(from, [num])
-					} catch (e) {
-						console.log('Error :', e)
-						reply('Failed to add target, maybe because its private🤔')
-					}
-					break;
-case 'igstory': 
-            if(!q) return reply('Username?')
-            hx.igstory(q)
-            .then(async result => {
-            for(let i of result.medias){
-                if(i.url.includes('mp4')){
-                    let link = await getBuffer(i.url)
-                    xeon.sendMessage(from,link,video,{quoted: mek,caption: `Type : ${i.type}`})
-                } else {
-                    let link = await getBuffer(i.url)
-                    xeon.sendMessage(from,link,image,{quoted: mek,caption: `Type : ${i.type}`})                  
-                }
-            }
-            });
-            break
-case 'linkwa':
-            if(!q) return reply('what group are you looking for?')
-            hx.linkwa(q)
-            .then(result => {
-            let res = '*「 _LINK WA_ 」*\n\n'
-            for (let i of result) {
-            res += `*Name*: *${i.nama}\n*Link*: ${i.link}\n\n`
-            }
-            reply(res)
-            });
-            break
-      case "getbio":
-        var yy = mek.message.extendedTextMessage.contextInfo.participant;
-        var p = await xeon.getStatus(`${yy}`, MessageType.text);
-        reply(p.status);
-        if (p.status == 401) {
-          reply("Status Profile Not Found");
-        }
-        break;
-        //get grup desc
-        case 'getdeskgc':
-              if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
-				if (!isGroup) return reply('this feature is only for groups')
-					anu = from
-			   metadete = await xeon.groupMetadata(anu)
-				xeon.sendMessage(from, metadete.desc, text, {quoted:mek})
-				  break
-      // Get Name
-      case "getname":
-        var ambl = mek.message.extendedTextMessage.contextInfo.participant;
-        const sname =
-          xeon.contacts[ambl] != undefined
-            ? xeon.contacts[ambl].sname || xeon.contacts[ambl].notify
-            : undefined;
-        reply(sname);
-        break;
-      case "setdesc":
-        if (!mek.key.fromMe && !isGroupAdmins) return reply("Admin Group Only");
-        if (!isBotGroupAdmins) return reply("Bot not admin");
-        if (!isGroup) return;
-        xeon.groupUpdateDescription(from, `${args.join(" ")}`);
-        xeon.sendMessage(from, "Succes change description group", text, {
-          quoted: mek,
-        });
-        break;
-      // Set Name Group
-      case "setname":
-        if (!mek.key.fromMe && !isGroupAdmins) return reply("Admin Group Only");
-        if (!isBotGroupAdmins) return reply("Bot not admin");
-        if (!isGroup) return;
-        xeon.groupUpdateSubject(from, `${args.join(" ")}`);
-        xeon.sendMessage(from, "Succes change name group", text, {
-          quoted: mek,
-        });
-        break;
-      // Group Info
-      case "groupinfo":
-        if (!isGroup) return;
-        ppUrl = await xeon.getProfilePicture(from); // leave empty to get your own
-        buffergbl = await getBuffer(ppUrl);
-        xeon.sendMessage(from, buffergbl, image, {
-          quoted: mek,
-          caption: `\`\`\`「 Group Info 」\`\`\`\n*•> Name* : ${groupName}\n*•> Member* : ${groupMembers.length}\n*•> Admin* : ${groupAdmins.length}\n*•> Description* : \n${groupDesc}`,
-        });
-        break;
-      // Demote Admins
-      case "demote":
-        if (!mek.key.fromMe && !isGroupAdmins) return reply("Admin Group Only");
-        if (!isGroup) return;
-        if (!isBotGroupAdmins) return reply("Bot not admin");
-        if (
-          mek.message.extendedTextMessage === undefined ||
-          mek.message.extendedTextMessage === null
-        )
-          return reply("Reply members");
-        mentionede = mek.message.extendedTextMessage.contextInfo.participant;
-        xeon.groupDemoteAdmin(from, [mentionede]);
-        teks = `Members @${mentionede.split("@")[0]} demoted`;
-        xeon.sendMessage(from, teks, text, {
-          quoted: mek,
-          contextInfo: { mentionedJid: [mentionede] },
-        });
-        break;
-      // Promote Members
-      case "promote":
-        if (!mek.key.fromMe && !isGroupAdmins) return reply("Admin Group Only");
-        if (!isGroup) return;
-        if (!isBotGroupAdmins) return reply("Bot not admin");
-        if (
-          mek.message.extendedTextMessage === undefined ||
-          mek.message.extendedTextMessage === null
-        )
-          return reply("Reply members");
-        mentionede = mek.message.extendedTextMessage.contextInfo.participant;
-        xeon.groupMakeAdmin(from, [mentionede]);
-        teks = `Members @${mentionede.split("@")[0]} promoted`;
-        xeon.sendMessage(from, teks, text, {
-          quoted: mek,
-          contextInfo: { mentionedJid: [mentionede] },
-        });
-        break;
-      case "closegc":
-        if (!mek.key.fromMe && !isGroupAdmins) return reply("Only admin");
-        if (!isBotGroupAdmins) return reply("Bot not admin");
-        if (!isGroup) return;
-        reply(`*SUCCES CLOSE GROUP*`);
-        xeon.groupSettingChange(from, GroupSettingChange.messageSend, true);
-        break;
-case 'tospam':
-if (!isQuotedSticker && !isQuotedAudio && !isQuotedImage && budy.length > 10) {
-teks = body.slice(8)
-oi1 = teks.split('|')[0]
-oi2 = teks.split('|')[1]
-if (Number(oi2) >= 50) return reply('Most!')
-if (!Number(oi2)) return reply('Amount must be a number!')
-	  for (let i = 0; i < oi2; i++) {
-	  xeon.sendMessage(from, `${oi1}`, MessageType.text)
-	  }
-} else if (!isQuotedSticker && !isQuotedAudio && !isQuotedImage && budy.length < 10) {
-teks = mek.message.extendedTextMessage.contextInfo.quotedMessage.conversation
-if (!Number(args[0])) return reply('Amount must be a number!')
-if (Number(args[0]) >= 50) return reply('Most!')
-	  for (let i = 0; i < args[0]; i++) {
-	  xeon.sendMessage(from, teks, MessageType.text)
-	  }
-} else if (isQuotedSticker) {
-	encmedian = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
-	         median = await xeon.downloadAndSaveMediaMessage(encmedian)
-				anu = fs.readFileSync(median)
-	if (!Number(args[0])) return reply('Amount must be a number!')
-	if (Number(args[0]) >= 50) return reply('Most!')
-	  for (let i = 0; i < args[0]; i++) {
-	  xeon.sendMessage(from, anu, sticker)
-	  }
-} else if (isQuotedAudio) {
-	encmediat = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
-	            mediat = await xeon.downloadAndSaveMediaMessage(encmediat)
-				anu = fs.readFileSync(mediat)
-	if (!Number(args[0])) return reply('Amount must be a number!')
-	if (Number(args[0]) >= 50) return reply('Most!')
-	  for (let i = 0; i < args[0]; i++) {
-	  xeon.sendMessage(from, anu, audio, {mimetype: 'audio/mp4', duration: 359996400, ptt:true})
-	  }
-} else if (isQuotedImage) {
-	boij = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
-	delb = await xeon.downloadMediaMessage(boij)
-	teks = body.slice(6)
-	oi1 = teks.split('|')[0]
-oi2 = teks.split('|')[1]
-if (Number(oi2) >= 50) return reply('Most!')
-	if (!Number(oi2)) return reply('Amount must be a number!')
-	  for (let i = 0; i < oi2; i++) {
-	  xeon.sendMessage(from, delb, MessageType.image, {caption: oi1})
-	  }
-}
-	  break
-      case "revoke":
-        if (!mek.key.fromMe && !isGroupAdmins) return reply("Only admin");
-        if (!isBotGroupAdmins) return reply("Bot not admin");
-        if (!isGroup) return;
-        xeon.revokeInvite(from);
-        reply("```Succes revoke link group```");
-        break;
-      case "opengc":
-        if (!mek.key.fromMe && !isGroupAdmins) return reply("Only admin");
-        if (!isBotGroupAdmins) return reply("Bot not admin");
-        if (!isGroup) return;
-        reply(`*SUCCES OPEN GROUP*`);
-        xeon.groupSettingChange(from, GroupSettingChange.messageSend, false);
-        break;
-      case "reminder": // by Slavyan
-        if (!q)
-          return reply(
-            `EXAMPLE OF USE:\n${prefix}reminder text/2s\n\nNOTE: \n*s* - seconds\n*m* - minutes\n*h* - hours\n*d* - days`
-          );
-        teks = body.slice(10);
-        const messRemind = teks.split("/")[0];
-        const timeRemind = teks.split("/")[1];
-        typeRemind = "Text";
-        if (isQuotedImage) typeRemind = "Image";
-        if (isQuotedSticker) typeRemind = "Sticker";
-        if (isQuotedAudio) typeRemind = "Audio";
-        if (!isQuotedImage && !isQuotedAudio && !isQuotedSticker)
-          typeRemind = "Text";
-        const parsedTime = ms(toMs(timeRemind));
-        reminder.addReminder(
-          sender,
-          messRemind,
-          typeRemind,
-          timeRemind,
-          _reminder
-        );
-        if (!isQuotedImage && !isQuotedSticker && !isQuotedAudio) {
-          await xeon.sendMessage(
-            from,
-            `── 「 REMINDER 」 ──
     
-Reminder berhasil diaktifkan!
-➸ Message: ${messRemind}
-➸ Type: Text
-➸ Duration: ${parsedTime.hours} Hour ${parsedTime.minutes} Minute ${
-              parsedTime.seconds
-            } detik
-➸ To: @${sender.split("@")[0]}
-    `,
-            text,
-            { contextInfo: { mentionedJid: [sender] } }
-          );
-          const intervRemind = setInterval(async () => {
-            if (Date.now() >= reminder.getReminderTime(sender, _reminder)) {
-              anu = await reminder.getReminderMsg(sender, _reminder);
-              xeon.sendMessage(
-                from,
-                `── 「 REMINDER 」 ──
-
-⏰ @${sender.split("@")[0]} ⏰
-➸ Message: ${messRemind}
-➸ Type: ${reminder.getReminderType(sender, _reminder)}`,
-                text,
-                { contextInfo: { mentionedJid: [sender] } }
-              );
-              _reminder.splice(
-                reminder.getReminderPosition(sender, _reminder),
-                1
-              );
-              fs.writeFileSync(
-                "./database/reminder.json",
-                JSON.stringify(_reminder)
-              );
-              clearInterval(intervRemind);
-            }
-          }, 1000);
-        } else if (isQuotedSticker) {
-          encmedia = JSON.parse(JSON.stringify(mek).replace("quotedM", "m"))
-            .message.extendedTextMessage.contextInfo;
-          media = await xeon.downloadAndSaveMediaMessage(encmedia);
-          await xeon.sendMessage(
-            from,
-            `── 「 REMINDER 」 ──
-    
-Reminder berhasil diaktifkan!
-➸ Message: ${messRemind}
-➸ Type: Sticker
-➸ Duration: ${parsedTime.hours} Hour ${parsedTime.minutes} Minute ${
-              parsedTime.seconds
-            } detik
-➸ To: @${sender.split("@")[0]}
-    `,
-            text,
-            { contextInfo: { mentionedJid: [sender] } }
-          );
-          const intervRemind = setInterval(async () => {
-            if (Date.now() >= reminder.getReminderTime(sender, _reminder)) {
-              anu = await reminder.getReminderMsg(sender, _reminder);
-              xeon.sendMessage(
-                from,
-                `── 「 REMINDER 」 ──
-
-⏰ @${sender.split("@")[0]} ⏰
-➸ Message: ${messRemind}
-➸ Type: ${reminder.getReminderType(sender, _reminder)}`,
-                text,
-                { contextInfo: { mentionedJid: [sender] } }
-              );
-              xeon.sendMessage(from, fs.readFileSync(media), sticker);
-              _reminder.splice(
-                reminder.getReminderPosition(sender, _reminder),
-                1
-              );
-              fs.writeFileSync(
-                "./database/reminder.json",
-                JSON.stringify(_reminder)
-              );
-              clearInterval(intervRemind);
-            }
-          }, 1000);
-        } else if (isQuotedImage) {
-          encmedia = isQuotedImage
-            ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
-                .extendedTextMessage.contextInfo
-            : mek;
-          media = await xeon.downloadAndSaveMediaMessage(encmedia);
-          await xeon.sendMessage(
-            from,
-            `── 「 REMINDER 」 ──
-    
-Reminder berhasil diaktifkan!
-➸ Message: ${messRemind}
-➸ Type: Image
-➸ Duration: ${parsedTime.hours} Hour ${parsedTime.minutes} Minute ${
-              parsedTime.seconds
-            } detik
-➸ To: @${sender.split("@")[0]}
-    `,
-            text,
-            { contextInfo: { mentionedJid: [sender] } }
-          );
-          const intervRemind = setInterval(async () => {
-            if (Date.now() >= reminder.getReminderTime(sender, _reminder)) {
-              anu = await reminder.getReminderMsg(sender, _reminder);
-              teks = `── 「 REMINDER 」 ──
-
-⏰ @${sender.split("@")[0]} ⏰
-➸ Message: ${messRemind}
-➸ Type: ${reminder.getReminderType(sender, _reminder)}`;
-              xeon.sendMessage(from, media, image, {
-                contextInfo: { mentionedJid: [sender] },
-                caption: teks,
-              });
-              _reminder.splice(
-                reminder.getReminderPosition(sender, _reminder),
-                1
-              );
-              fs.writeFileSync(
-                "./database/reminder.json",
-                JSON.stringify(_reminder)
-              );
-              clearInterval(intervRemind);
-            }
-          }, 1000);
-        } else if (isQuotedAudio) {
-          encmedia = JSON.parse(JSON.stringify(mek).replace("quotedM", "m"))
-            .message.extendedTextMessage.contextInfo;
-          media = await xeon.downloadAndSaveMediaMessage(encmedia);
-          await xeon.sendMessage(
-            from,
-            `── 「 REMINDER 」 ──
-    
-Reminder berhasil diaktifkan!
-➸ Message: ${messRemind}
-➸ Type: Audio
-➸ Duration: ${parsedTime.hours} Hour ${parsedTime.minutes} Minute ${
-              parsedTime.seconds
-            } detik
-➸ To: @${sender.split("@")[0]}
-    `,
-            text,
-            { contextInfo: { mentionedJid: [sender] } }
-          );
-          const intervRemind = setInterval(async () => {
-            if (Date.now() >= reminder.getReminderTime(sender, _reminder)) {
-              anu = await reminder.getReminderMsg(sender, _reminder);
-              xeon.sendMessage(
-                from,
-                `── 「 REMINDER 」 ──
-
-⏰ @${sender.split("@")[0]} ⏰
-➸ Message: ${messRemind}
-➸ Type: ${reminder.getReminderType(sender, _reminder)}`,
-                text,
-                { contextInfo: { mentionedJid: [sender] } }
-              );
-              xeon.sendMessage(from, fs.readFileSync(media), audio, {
-                contextInfo: { mentionedJid: [sender] },
-                mimetype: "audio/mp4",
-                ptt: true,
-                caption: teks,
-              });
-              _reminder.splice(
-                reminder.getReminderPosition(sender, _reminder),
-                1
-              );
-              fs.writeFileSync(
-                "./database/reminder.json",
-                JSON.stringify(_reminder)
-              );
-              clearInterval(intervRemind);
-            }
-          }, 1000);
-        }
-        break;
-case 'hacked':
-  if (!mek.key.fromMe) return;
-              if (!isGroup) return reply('this feature is only for groups')
-              if (args.length < 1) return reply('The text?')
-              reply('Otw Hack')
-                tessgc = await getBuffer(`https://i.ibb.co/m4Qx3JG/20210319-204838.jpg`)
-                   xeon.updateProfilePicture (from, tessgc)
-                   await sleep(1000)
-                xeon.groupUpdateSubject(from, `HACKED BY ${body.slice(8)}`)
-                await sleep(1000)
-                xeon.groupUpdateDescription(from, `_${pushname} hacked this group_`)             
-                await sleep(1000)
-                xeon.sendMessage(from, 'Succes Hacked', text, {quoted: fyt})
-case 'mygithub':
-  reply('https://github.com/DGXeon')
-					break;
-   case 'ss':
-      reply(mess.wait)
-					sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/ssweb?url=${args[0]}&apikey=${HunterApi}`, `Here`)
-					break
-case 'harta':
-  reply(mess.wait)
-  sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/chartatahta?text=${args[0]}&apikey=${HunterApi}`, `Here 🗿`)
-  break
-case 'bocil':
-                    get_result = await getBuffer(`https://dapuhy-api.herokuapp.com/api/asupan/asupanbocil?apikey=${dapapi}`)
-                    kodo = `Intake`
-   sendButVideo(from, kodo, `Click Next To Continue`, get_result, [                      
-          {
-            buttonId: `${prefix+command}`,
-            buttonText: {
-              displayText: `Next シ︎`,
-            },
-            type: 1,
-          },
-        ]);                 
-                    break    
-case '+91':
-                    get_result = await getBuffer(`https://xeon.herokuapp.com/api/asupan?apikey=${valkey}`)
-                    pll = `Intake`
-   sendButVideo(from, pll, `Click Next To Continue`, get_result, [                      
-          {
-            buttonId: `${prefix+command}`,
-            buttonText: {
-              displayText: `Next シ︎`,
-            },
-            type: 1,
-          },
-        ]);                 
-                    break    
-case 'santuy':
-                    get_result = await getBuffer(`https://dapuhy-api.herokuapp.com/api/asupan/asupansantuy?apikey=${dapapi}`)
-                    hhh = `Intake`
-   sendButVideo(from, hhh, `Click Next To Continue`, get_result, [                      
-          {
-            buttonId: `${prefix+command}`,
-            buttonText: {
-              displayText: `Next シ︎`,
-            },
-            type: 1,
-          },
-        ]);                 
-                    break 
-case 'ukhti':
-                    get_result = await getBuffer(`https://dapuhy-api.herokuapp.com/api/asupan/asupanukhty?apikey=${dapapi}`)
-                    kntl = `Intake`
-   sendButVideo(from, kntl, `Click Next To Continue`, get_result, [                      
-          {
-            buttonId: `${prefix+command}`,
-            buttonText: {
-              displayText: `Next シ︎`,
-            },
-            type: 1,
-          },
-        ]);                 
-                    break    
-case 'rikagusriani':
-                    get_result = await getBuffer(`https://dapuhy-api.herokuapp.com/api/asupan/asupanrikagusriani?apikey=${dapapi}`)
-                    yyy = `Intake`
-   sendButVideo(from, yyy, `Click Next To Continue`, get_result, [                      
-          {
-            buttonId: `${prefix+command}`,
-            buttonText: {
-              displayText: `Next シ︎`,
-            },
-            type: 1,
-          },
-        ]);                 
-                    break    
-case 'ghea':
-                    get_result = await getBuffer(`https://dapuhy-api.herokuapp.com/api/asupan/asupanghea?apikey=${dapapi}`)
-                    ggg = `Intake`
-   sendButVideo(from, ggg, `Click Next To Continue`, get_result, [                      
-          {
-            buttonId: `${prefix+command}`,
-            buttonText: {
-              displayText: `Next シ︎`,
-            },
-            type: 1,
-          },
-        ]);                 
-                    break    
-case 'size':
-if (args.length < 1) return reply('Enter the numbers')
-filsize = args[0]
-costick = await xeon.prepareMessageFromContent(from,{
-"stickerMessage": {
-"url": m.quoted.url,
-"fileSha256": m.quoted.fileSha256.toString('base64'),
-"fileEncSha256": m.quoted.fileEncSha256.toString('base64'),
-"mediaKey": m.quoted.mediaKey.toString('base64'),
-"mimetype": m.quoted.mimetype,
-"height": m.quoted.height,
-"width": m.quoted.width,
-"directPath": m.quoted.directPath,
-"fileLength": filsize,
-"mediaKeyTimestamp": m.quoted.mediaKeyTimestamp.low,
-"isAnimated": m.quoted.isAnimated
-}
-}, {quoted:fgif})
-xeon.relayWAMessage(costick)
-break
-
-case 'sizeimg':
-if (args.length < 1) return reply('Enter the numbers')
-filsizei = args[0]
-costick3 = await xeon.prepareMessageFromContent(from,{
-"imageMessage": {
-	"url": m.quoted.url,
-	"mimetype": m.quoted.mimetype,
-	"caption": m.quoted.caption,
-	"fileSha256": m.quoted.fileSha256.toString('base64'),
-	"fileLength": filsizei,
-	"height": m.quoted.height,
-	"width": m.quoted.width,
-	"mediaKey": m.quoted.mediaKey.low,
-	"jpegThumbnail": m.quoted.jpegThumbnail
-}
-}, {quoted:ftroli})
-xeon.relayWAMessage(costick3)
-break
-      case "rentbot":
-        if (!mek.key.fromMe) return reply("Cant be a rentbot in a bot");
-        jadibot(reply, xeon, from);
-        break;
-      case "stoprentbot":
-        if (!mek.key.fromMe)
-          return reply("cant stop being bot except the owner");
-        stopjadibot(reply);
-        break;
-      case "listbot":
-        let tekss = "「 *LIST RENTBOT* 」\n";
-        for (let i of listjadibot) {
-          tekss += `*Number* : ${i.jid.split("@")[0]}
-*Name* : ${i.name}
-*Device* : ${i.phone.device_manufacturer}
-*Model* : ${i.phone.device_model}\n\n`;
-        }
-        reply(tekss);
-        break;
-
-      //------------------< Fitur yg pake button >-------------------
-      
-	case 'chat':
-			if (args[0].startsWith('08')) return reply('Prefix number with 91')
-            if (args[0].startsWith('+62')) return reply('Prefix number with 91')
-			if (args.length < 1) return reply(`Usage ${prefix}chat 91xnxx|teks`)
-            var pc = body.slice(6)
-            var nomor = pc.split("|")[0];
-            var org = pc.split("|")[1];
-            xeon.sendMessage(nomor+'@s.whatsapp.net', org, MessageType.text)   
-            reply(`Sukses mengirim chat:\n${org},@${nomor}`)
-            break
-case 'viewonce':
-res = await xeon.prepareMessageFromContent(from,{
-"viewOnceMessage": {
-"message": {
-"imageMessage": {
-"mimetype": 'image/jpeg',
-"jpegThumbnail": iye,
-"viewOnce": true
-}
-}
-}
-}, {}) 
-xeon.relayWAMessage(res)
-break
-case 'hbd': case 'zodiak': case 'zodiac':
-let textus = args.join(" ")
-if (!q) return reply(`Example : ${prefix + command} 2003 01 24`)
-const zodiak = [
-    ["Capricorn",   new Date(1970, 0, 1)],
-    ["Aquarius",    new Date(1970, 0, 20)],
-    ["Pisces",      new Date(1970, 1, 19)],
-    ["Aries",       new Date(1970, 2, 21)],
-    ["Taurus",      new Date(1970, 3, 21)],
-    ["Gemini",      new Date(1970, 4, 21)],
-    ["Cancer",      new Date(1970, 5, 22)],
-    ["Leo",         new Date(1970, 6, 23)],
-    ["Virgo",       new Date(1970, 7, 23)],
-    ["Libra",       new Date(1970, 8, 23)],
-    ["Scorpio",     new Date(1970, 9, 23)],
-    ["Sagittarius", new Date(1970, 10, 22)],
-    ["Capricorn",   new Date(1970, 11, 22)]
-].reverse()
-
-function getZodiac(month, day) {
-let d = new Date(1970, month - 1, day)
-return zodiak.find(([_,_d]) => d >= _d)[0]
-}
-const okbg = new Date(textus)
-if (okbg == 'Invalid Date') throw date
-const d = new Date()
-const [tahun, bulan, tanggal] = [d.getFullYear(), d.getMonth() + 1, d.getDate()]
-const birth = [okbg.getFullYear(), okbg.getMonth() + 1, okbg.getDate()]
-    
-const zodiac = getZodiac(birth[1], birth[2])
-const ageD = new Date(d - date)
-const age = ageD.getFullYear() - new Date(1970, 0, 1).getFullYear()
-
-const birthday = [tahun + (birth[1] < bulan), ...birth.slice(1)]
-const cekusia = bulan === birth[1] && tanggal === birth[2] ? `Happy -${age}th Birthday 🥳🎉` : age
-
-const teksh = `
-Birth : ${birth.join('-')}
-Upcoming hbd : ${birthday.join('-')}
-Age : ${cekusia}
-Zodiac : ${zodiac}
-`.trim()
-reply(monospace(teksh))
-break
-// debug
-  case 'debug':
-			 res = await xeon.prepareMessageFromContent(from,{
-"templateMessage": {
-						"hydratedTemplate": {
-							"hydratedContentText": `Hi ${pushname} 👋`,
-							"hydratedFooterText": `${fakeyoi}`,
-							"hydratedButtons": [
-								{
-									"quickReplyButton": {
-										"displayText": "List Menu",
-										"id": "60dd75b0081979507a679f99"
-									},
-									"index": 0
-								},
-								{
-									"quickReplyButton": {
-										"displayText": "Script",
-										"id": "60dd75b0081979507a679f99"
-									},
-									"index": 1
-								},
-								{
-									"quickReplyButton": {
-										"displayText": "Instagram",
-										"id": "60dd75b0081979507a679f99"
-									},
-									"index": 2
-								}
-							]
-						}
-					}
-				}, {}) 
-xeon.relayWAMessage(res)
-break
-case 'debug2':
-   res = await xeon.prepareMessageFromContent(from,{
-"templateMessage": {
-  "hydratedFourRowTemplate": {
-    "hydratedContentText": "",
-    "hydratedFooterText": "",
-    "hydratedButtons": [
-      {
-        "urlButton": {
-          "displayText": "",
-          "url": ""
-        },
-        "index": 0
-      }
-    ]
-  },
-  "hydratedTemplate": {
-    "hydratedContentText": `Hi ${pushname}`,
-    "hydratedFooterText": `${fakeyoi}`,
-    "hydratedButtons": [
-      {
-        "urlButton": {
-          "displayText": `Script ${fakeyoi}`,
-          "url": "https://github.com/DGXeon/DogeBot"
-        },
-        "index": 0
-      }
-    ]
-  }
-}
-}, {})
-xeon.relayWAMessage(res)
-break
-			
-              
-                 break
-			      case "mode":
-        if (!mek.key.fromMe) return;
-        sendButMessage(from, `MODE SELF/PUBLIC`, `Please choose one`, [
-          {
-            buttonId: `self`,
-            buttonText: {
-              displayText: `SELF MODE`,
-            },
-            type: 1,
-          },
-          {
-            buttonId: `public`,
-            buttonText: {
-              displayText: `PUBLIC MODE`,
-            },
-            type: 1,
-          },
-        ]);
-        break;
-case "intake": // by xeon
-        sendButMessage(from, `Hi ${pushname}`, `Please select your intake✨`, [
-          {
-            buttonId: `+91`,
-            buttonText: {
-              displayText: `㋛  +91 intake`,
-            },
-            type: 1,
-          },
-          {
-            buttonId: `ghea`,
-            buttonText: {
-              displayText: `🔖 Ghea intake`,
-            },
-            type: 1,
-          },
-          {
-            buttonId: `intake2`,
-            buttonText: {
-              displayText: `Next intake >`,
-            },
-            type: 1,
-          },
-        ]);
-        break;
-case "intake2": // by xeon
-        sendButMessage(from, `Hi ${pushname}`, `Please select the intake V.2✨`, [
-          {
-            buttonId: `santuy`,
-            buttonText: {
-              displayText: `🔖 Intake of Santuy`,
-            },
-            type: 1,
-          },
-          {
-            buttonId: `leaky`,
-            buttonText: {
-              displayText: `🔖 Leaky intake`,
-            },
-            type: 1,
-          },
-          {
-            buttonId: `intake3`,
-            buttonText: {
-              displayText: `Next Intake >`,
-            },
-            type: 1,
-          },
-        ]);
-        break;
-case "intake3": // by xeon
-        sendButMessage(from, `Hi ${pushname}`, `Please select the intake V.3✨`, [
-          {
-            buttonId: `rikagusriani`,
-            buttonText: {
-              displayText: `🔖 Rikagusriani intake`,
-            },
-            type: 1,
-          },
-          {
-            buttonId: `ukhti`,
-            buttonText: {
-              displayText: `🔖 Ukhti intake`,
-            },
-            type: 1,
-          },
-          {
-            buttonId: `mygithub`,
-            buttonText: {
-              displayText: `Follow my Github 😄`,
-            },
-            type: 1,
-          },
-        ]);
-        break;
-      case "grup":
-        if (!mek.key.fromMe) return;
-        sendButMessage(from, `GROUP SETTING`, `Please choose one`, [
-          {
-            buttonId: `opengc`,
-            buttonText: {
-              displayText: `OPEN`,
-            },
-            type: 1,
-          },
-          {
-            buttonId: `closegc`,
-            buttonText: {
-              displayText: `CLOSE`,
-            },
-            type: 1,
-          },
-          {
-            buttonId: `revoke`,
-            buttonText: {
-              displayText: `REVOKE INVITE`,
-            },
-            type: 1,
-          },
-        ]);
-        break;
-      //end
-      //------------------< Fitur downloader >-------------------
-
-     
-      //JCCHCCGHTHDTRSRS
-      case "twitter":
-        if (!isUrl(args[0]) && !args[0].includes("twitter.com"))
-          return reply(mess.Iv);
-        if (!q) return fakegroup("The link?");
-        ten = args[0];
-        var res = await hx.twitter(`${ten}`);
-        ren = `${g.HD}`;
-        sendMediaURL(from, ren, "DONE");
-        break;
-      case "facebook":
-        if (!q) return reply("The link?");
-        if (!isUrl(args[0]) && !args[0].includes("facebook.com"))
-          return reply(mess.Iv);
-        reply(mess.wait);
-        te = args.join(" ");
-        hx.fbdown(`${te}`).then((G) => {
-          ten = `${G.HD}`;
-          sendMediaURL(from, ten, `*Link video_normal* : ${G.Normal_video}`);
-        });
-        break;
-      case "instagram":
-        if (!isUrl(args[0]) && !args[0].includes("instagram.com"))
-          return reply(mess.Iv);
-        if (!q) return fakegroup("The link?");
-        reply(mess.wait);
-        hx.igdl(args[0]).then(async (result) => {
-          for (let i of result.medias) {
-            if (i.url.includes("mp4")) {
-              let link = await getBuffer(i.url);
-              xeon.sendMessage(from, link, video, {
-                quoted: mek,
-                caption: `Type : ${i.type}`,
-              });
-            } else {
-              let link = await getBuffer(i.url);
-              xeon.sendMessage(from, link, image, {
-                quoted: mek,
-                caption: `Type : ${i.type}`,
-              });
-            }
-          }
-        });
-        break;
-case 'setprefix':
-      if (!isOwner && !mek.key.fromMe) return reply('Only owner can use this feature')
-       if (args.length < 1) return reply(`Enter prefix\nOptions :\n=> multi\n=> nopref`)
-           if (c === 'multi'){
-              multi = true
-                    reply(`Successfully changed prefix to ${c}`)
-                } else if (c === 'nopref'){
-                    multi = false
-                    nopref = true
-                    reply(`Successfully changed prefix to ${c}`)
-                } else {
-                    multi = false
-                    nopref = false
-                    prefa = `${c}`
-                    reply(`Successfully changed prefix to ${c}`)
-                }
-                break
-      
-      case "delvote":
-        if (!mek.key.remoteJid) return;
-        if (isVote) return reply("No Voting session");
-        delVote(from);
-        reply("Successfully Deleting Voting Session In This Group");
-        break;
-      case "voting":
-        if (!isGroupAdmins && !mek.key.fromMe) return;
-        if (!isGroup) return reply('this feature is only for groups');
-        if (isVote) return reply("Voting Session In Progress In This Group");
-        if (!q)
-          return reply(
-            "*Voting*\n\n" +
-              prefix +
-              "voting @tag target | reason  | 1 (1 = 1 Minute)"
-          );
-        if (
-          mek.message.extendedTextMessage.contextInfo.mentionedJid.length > 0 ||
-          mek.message.extendedTextMessage.contextInfo == null
-        ) {
-          let id = mek.message.extendedTextMessage.contextInfo.mentionedJid[0];
-          split = args.join(" ").replace("@", "").split("|");
-          if (!Number(split[2]))
-            return reply(
-              "enter number in row 3\nExample: 1-9999\n1 = 1 Min"
-            );
-          await mentions(
-            "Vote " +
-              "@" +
-              id.split("@")[0] +
-              " On Start" +
-              "\n\n" +
-              `vote = ✅\ndevote = ❌\n\nReason: ${split[1]}`,
-            [id],
-            true
-          );
-          addVote(from, split[1], split[0], split[2], reply);
-        }
-        break;
-      case "linkwa":
-        if (!q) return reply("what group are you looking for??");
-        hx.linkwa(q).then((result) => {
-          let res = "*「 _LINK WA_ 」*\n\n";
-          for (let i of result) {
-            res += `*Name*: *${i.nama}\n*Link*: ${i.link}\n\n`;
-          }
-          reply(res);
-        });
-        break;
-     /* case "igstalk":
-        if (!q) return reply("Username?");
-        const tod = await fetchJson(
-          `https://api.dhnjing.xyz/stalk/instagram?user=${q}`
-        );
-        buff = await getBuffer(tod.result.user_profile_hd);
-        const tt = `*INSTAGRAM STALK*
-    Username: ${tod.result.username}
-    Fullname: ${tod.result.user_fullname}
-    Bio: ${tod.result.user_bio}
-
-    Jumlah postingan: ${tod.result.user_post_total}
-    Following: ${tod.result.user_following}
-    Follower: ${tod.result.user_followers}`;
-        xeon.sendMessage(from, buff, image, { quoted: mek, caption: tt });
-        break;*/
-      
-      case "tiktokstalk":
-        if (!q) return reply("Username? ");
-        var i = await fetchJson(
-          `https://api.dhnjing.xyz/stalk/tiktok?user=@${q}`
-        );
-        buff = await getBuffer(i.result.user.avatarLarger);
-        var ii = `*TIKTOK STALK*
-    Username: ${q}
-    Nickname: ${i.result.user.nickname}
-    Bio: ${i.result.user.signature}
-
-    Number of posts: ${i.result.stats.videoCount}
-    Following: ${i.result.stats.followingCount}
-    Follower: ${i.result.stats.followerCount}`;
-        xeon.sendMessage(from, buff, image, { quoted: mek, caption: ii });
-        break;
-   
-  case 'writebook':            
-            if (args.length == 0) return reply(`example: ${prefix + command} Xeon`)
-            reply(mess.wait)
-            teks = args.join(" ")
-            ini_buf = await getBuffer(`https://xeon.herokuapp.com/api/maker/nulis?apikey=${valkey}&text=${teks}`)  
-buttons = [{buttonId: `writelist`,buttonText:{displayText: `Write List🔖`},type:1}]
-              imageMsg = (await xeon.prepareMessageMedia(ini_buf, "imageMessage", { thumbnail: ini_buf, })).imageMessage
-              buttonsMessage = {footerText:'𝐃𝐨𝐠𝐞 𝐁𝐨𝐭', imageMessage: imageMsg,
-              contentText:`ɴᴏᴛᴇ: ʜᴏʀɴʏ = ʙᴏɴᴋs`,buttons,headerType:4}
-              prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
-              xeon.relayWAMessage(prep)
-         
-            break
-		case 'write':
-              
-                if (args.length < 1) return reply(`where is the text bro??\nexample ${prefix + command} ${pushname}`)
-                dpuhy = args.join(' ')
-               tiyo = `Please choose one`
-sendButMessage(from, tiyo, `𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`, [
-            {              
-              buttonId: `writedown ${dpuhy}`,
-              buttonText: {
-                displayText: `DOWN`,
-              },
-              type: 1,
-               },
-          {
-            buttonId: `writeleft ${dpuhy}`,
-            buttonText: {
-              displayText: `LEFT`,
-            },
-            type: 1,          
-          },
-        ]);               
-        break;                 
-   case 'bc':
-      case 'broadcast':
-        if (!mek.key.fromMe) return;
-             if (!isOwner) return  reply(mess.only.owner)
-             if (args.length < 1) return reply('text?')
-             anu = await xeon.chats.all()
-             if (isMedia && !mek.message.videoMessage || isQuotedImage) {
-             const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
-             bc = await xeon.downloadMediaMessage(encmedia)
-             for (let _ of anu) {
-             xeon.sendMessage(_.jid, bc, image, {quoted:fkontak,caption: `*「 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭 BROADCASTING 」*\n\n${body.slice(4)}`})
-}
-             reply('Broadcast success')
-             } else {
-             for (let _ of anu) {
-xeon.sendMessage(_.jid, 
-			{"contentText": `*「 BROADCAST 」*\n\n${body.slice(4)}`,
-			"footerText": '𝐃𝐨𝐠𝐞 𝐁𝐨𝐭',
-			"buttons": [
-			{"buttonId": `${prefix}allmenu`,
-			"buttonText": {"displayText": "CLICK TO VIEW MENU"
-			},"type": "RESPONSE"}
-			], "headerType": 1,
-			}, MessageType.buttonsMessage )
-}
-             reply('Broadcast success')
-}
-             break
-
-case 'yuri':
-if (!isGroup) return reply('this feature is only for groups')
-if (!isNsfw) return reply(`Nsfw feature is not yet active in this group\nType: ${prefix}nsfw 1 \To activate`)
-reply(mess.wait)
-kon = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?nsfw=yuri&apikey=${hardi}`)
-buttons = [{buttonId: `yuri`,buttonText:{displayText: `➡️Next`},type:1}]
-              imageMsg = (await xeon.prepareMessageMedia(kon, "imageMessage", { thumbnail: kon, })).imageMessage
-              buttonsMessage = {footerText:'𝐃𝐨𝐠𝐞 𝐁𝐨𝐭', imageMessage: imageMsg,
-              contentText:`ɴᴏᴛᴇ: ʜᴏʀɴʏ = ʙᴏɴᴋs`,buttons,headerType:4}
-              prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
-              xeon.relayWAMessage(prep)
-break
-case 'anal':
-if (!isGroup) return reply('this feature is only for groups')
-if (!isNsfw) return reply(`Nsfw feature is not yet active in this group\nType: ${prefix}nsfw 1 \To activate`)
-reply(mess.wait)
-aku = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?nsfw=anal&apikey=${hardi}`)
-buttons = [{buttonId: `anal`,buttonText:{displayText: `➡️Next`},type:1}]
-              imageMsg = (await xeon.prepareMessageMedia(aku, "imageMessage", { thumbnail: aku, })).imageMessage
-              buttonsMessage = {footerText:'𝐃𝐨𝐠𝐞 𝐁𝐨𝐭', imageMessage: imageMsg,
-              contentText:`ɴᴏᴛᴇ: ʜᴏʀɴʏ = ʙᴏɴᴋs`,buttons,headerType:4}
-              prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
-              xeon.relayWAMessage(prep)
-break
-case 'lesbian':
-if (!isGroup) return reply('this feature is only for groups')
-if (!isNsfw) return reply(`Nsfw feature is not yet active in this group\nType: ${prefix}nsfw 1 \To activate`)
-reply(mess.wait)
-kau = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?nsfw=lesbian&apikey=${hardi}`)
-buttons = [{buttonId: `lesbian`,buttonText:{displayText: `➡️Next`},type:1}]
-              imageMsg = (await xeon.prepareMessageMedia(kau, "imageMessage", { thumbnail: kau, })).imageMessage
-              buttonsMessage = {footerText:'𝐃𝐨𝐠𝐞 𝐁𝐨𝐭', imageMessage: imageMsg,
-              contentText:`ɴᴏᴛᴇ: ʜᴏʀɴʏ = ʙᴏɴᴋs`,buttons,headerType:4}
-              prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
-              xeon.relayWAMessage(prep)
-break
-case 'eroneko':
-if (!isGroup) return reply('this feature is only for groups')
-if (!isNsfw) return reply(`Nsfw feature is not yet active in this group\nType: ${prefix}nsfw 1 \To activate`)
-reply(mess.wait)
-hai = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?nsfw=eroNeko&apikey=${hardi}`)
-buttons = [{buttonId: `eroneko`,buttonText:{displayText: `➡️Next`},type:1}]
-              imageMsg = (await xeon.prepareMessageMedia(hai, "imageMessage", { thumbnail: hai, })).imageMessage
-              buttonsMessage = {footerText:'𝐃𝐨𝐠𝐞 𝐁𝐨𝐭', imageMessage: imageMsg,
-              contentText:`ɴᴏᴛᴇ: ʜᴏʀɴʏ = ʙᴏɴᴋs`,buttons,headerType:4}
-              prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
-              xeon.relayWAMessage(prep)
-break
-case 'bj':
-if (!isGroup) return reply('this feature is only for groups')
-if (!isNsfw) return reply(`Nsfw feature is not yet active in this group\nType: ${prefix}nsfw 1 \To activate`)
-reply(mess.wait)
-yoiz = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?nsfw=bJ&apikey=${hardi}`)
-buttons = [{buttonId: `bj`,buttonText:{displayText: `➡️Next`},type:1}]
-              imageMsg = (await xeon.prepareMessageMedia(yoiz, "imageMessage", { thumbnail: yoiz, })).imageMessage
-              buttonsMessage = {footerText:'𝐃𝐨𝐠𝐞 𝐁𝐨𝐭', imageMessage: imageMsg,
-              contentText:`ɴᴏᴛᴇ: ʜᴏʀɴʏ = ʙᴏɴᴋs`,buttons,headerType:4}
-              prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
-              xeon.relayWAMessage(prep)
-break
-case 'kitsune':
-if (!isGroup) return reply('this feature is only for groups')
-if (!isNsfw) return reply(`Nsfw feature is not yet active in this group\nType: ${prefix}nsfw 1 \To activate`)
-reply(mess.wait)
-hai = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?nsfw=kitsune&apikey=${hardi}`)
-buttons = [{buttonId: `kitsune`,buttonText:{displayText: `➡️Next`},type:1}]
-              imageMsg = (await xeon.prepareMessageMedia(hai, "imageMessage", { thumbnail: hai, })).imageMessage
-              buttonsMessage = {footerText:'𝐃𝐨𝐠𝐞 𝐁𝐨𝐭', imageMessage: imageMsg,
-              contentText:`ɴᴏᴛᴇ: ʜᴏʀɴʏ = ʙᴏɴᴋs`,buttons,headerType:4}
-              prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: fvn})
-              xeon.relayWAMessage(prep)
-break
-case 'pussy':
-if (!isGroup) return reply('this feature is only for groups')
-if (!isNsfw) return reply(`Nsfw feature is not yet active in this group\nType: ${prefix}nsfw 1 \To activate`)
-reply(mess.wait)
-hai = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?nsfw=pussy&apikey=${hardi}`)
-buttons = [{buttonId: `pussy`,buttonText:{displayText: `➡️Next`},type:1}]
-              imageMsg = (await xeon.prepareMessageMedia(hai, "imageMessage", { thumbnail: hai, })).imageMessage
-              buttonsMessage = {footerText:'𝐃𝐨𝐠𝐞 𝐁𝐨𝐭', imageMessage: imageMsg,
-              contentText:`ɴᴏᴛᴇ: ʜᴏʀɴʏ = ʙᴏɴᴋs`,buttons,headerType:4}
-              prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: fvn})
-              xeon.relayWAMessage(prep)
-break
-case 'wallpaper':
-if (!isGroup) return reply('this feature is only for groups')
-if (!isNsfw) return reply(`Nsfw feature is not yet active in this group\nType: ${prefix}nsfw 1 \To activate`)
-reply(mess.wait)
-hai = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?sfw=wallpaper&apikey=${hardi}`)
-buttons = [{buttonId: `wallpaper`,buttonText:{displayText: `➡️Next`},type:1}]
-              imageMsg = (await xeon.prepareMessageMedia(hai, "imageMessage", { thumbnail: hai, })).imageMessage
-              buttonsMessage = {footerText:'𝐃𝐨𝐠𝐞 𝐁𝐨𝐭', imageMessage: imageMsg,
-              contentText:`ɴᴏᴛᴇ: ʜᴏʀɴʏ = ʙᴏɴᴋs`,buttons,headerType:4}
-              prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: fvn})
-              xeon.relayWAMessage(prep)
-break
-case 'neko2':
-if (!isGroup) return reply('this feature is only for groups')
-if (!isNsfw) return reply(`Nsfw feature is not yet active in this group\nType: ${prefix}nsfw 1 \To activate`)
-reply(mess.wait)
-hai = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?sfw=neko&apikey=${hardi}`)
-buttons = [{buttonId: `neko2`,buttonText:{displayText: `➡️Next`},type:1}]
-              imageMsg = (await xeon.prepareMessageMedia(hai, "imageMessage", { thumbnail: hai, })).imageMessage
-              buttonsMessage = {footerText:'𝐃𝐨𝐠𝐞 𝐁𝐨𝐭', imageMessage: imageMsg,
-              contentText:`ɴᴏᴛᴇ: ʜᴏʀɴʏ = ʙᴏɴᴋs`,buttons,headerType:4}
-              prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: fvn})
-              xeon.relayWAMessage(prep)
-break
-case 'baka':
-if (!isGroup) return reply('this feature is only for groups')
-if (!isNsfw) return reply(`Nsfw feature is not yet active in this group\nType: ${prefix}nsfw 1 \To activate`)
-reply(mess.wait)
-hai = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?sfw=baka&apikey=${hardi}`)
-buttons = [{buttonId: `baka`,buttonText:{displayText: `➡️Next`},type:1}]
-              imageMsg = (await xeon.prepareMessageMedia(hai, "imageMessage", { thumbnail: hai, })).imageMessage
-              buttonsMessage = {footerText:'𝐃𝐨𝐠𝐞 𝐁𝐨𝐭', imageMessage: imageMsg,
-              contentText:`ɴᴏᴛᴇ: ʜᴏʀɴʏ = ʙᴏɴᴋs`,buttons,headerType:4}
-              prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: fvn})
-              xeon.relayWAMessage(prep)
-break
-case 'slap':
-if (!isGroup) return reply('this feature is only for groups')
-if (!isNsfw) return reply(`Nsfw feature is not yet active in this group\nType: ${prefix}nsfw 1 \To activate`)
-reply(mess.wait)
-hai = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?sfw=slap&apikey=${hardi}`)
-buttons = [{buttonId: `slap`,buttonText:{displayText: `➡️Next`},type:1}]
-              imageMsg = (await xeon.prepareMessageMedia(hai, "imageMessage", { thumbnail: hai, })).imageMessage
-              buttonsMessage = {footerText:'𝐃𝐨𝐠𝐞 𝐁𝐨𝐭', imageMessage: imageMsg,
-              contentText:`ɴᴏᴛᴇ: ʜᴏʀɴʏ = ʙᴏɴᴋs`,buttons,headerType:4}
-              prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: fvn})
-              xeon.relayWAMessage(prep)
-break
-case 'poke':
-if (!isGroup) return reply('this feature is only for groups')
-if (!isNsfw) return reply(`Nsfw feature is not yet active in this group\nType: ${prefix}nsfw 1 \To activate`)
-reply(mess.wait)
-hai = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?sfw=poke&apikey=${hardi}`)
-buttons = [{buttonId: `poke`,buttonText:{displayText: `➡️Next`},type:1}]
-              imageMsg = (await xeon.prepareMessageMedia(hai, "imageMessage", { thumbnail: hai, })).imageMessage
-              buttonsMessage = {footerText:'𝐃𝐨𝐠𝐞 𝐁𝐨𝐭', imageMessage: imageMsg,
-              contentText:`ɴᴏᴛᴇ: ʜᴏʀɴʏ = ʙᴏɴᴋs`,buttons,headerType:4}
-              prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: fvn})
-              xeon.relayWAMessage(prep)
-break
-case 'keta':
-if (!isGroup) return reply('this feature is only for groups')
-if (!isNsfw) return reply(`Nsfw feature is not yet active in this group\nType: ${prefix}nsfw 1 \To activate`)
-reply(mess.wait)
-hai = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?nsfw=keta&apikey=${hardi}`)
-buttons = [{buttonId: `keta`,buttonText:{displayText: `➡️Next`},type:1}]
-              imageMsg = (await xeon.prepareMessageMedia(hai, "imageMessage", { thumbnail: hai, })).imageMessage
-              buttonsMessage = {footerText:'𝐃𝐨𝐠𝐞 𝐁𝐨𝐭', imageMessage: imageMsg,
-              contentText:`ɴᴏᴛᴇ: ʜᴏʀɴʏ = ʙᴏɴᴋs`,buttons,headerType:4}
-              prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: fvn})
-              xeon.relayWAMessage(prep)
-break
-case  'awoo':
-if (!isGroup) return reply('this feature is only for groups')
-if (!isNsfw) return reply(`Nsfw feature is not yet active in this group\nType: ${prefix}nsfw 1 \To activate`)
-reply(mess.wait)
-anu = await fetchJson(`https://waifu.pics/api/sfw/awoo`)
-buffer = await getBuffer(anu.url)
-xeon.sendMessage(from, buffer, image, { quoted: mek, thumbnail: fs.readFileSync('./xeon.jpg')})
-break
-case  'blowjob':
-if (!isGroup) return reply('this feature is only for groups')
-if (!isNsfw) return reply(`Nsfw feature is not yet active in this group\nType: ${prefix}nsfw 1 \To activate`)
-reply(mess.wait)
-anu = await fetchJson(`https://nekos.life/api/v2/img/blowjob`)
-buffer = await getBuffer(anu.url)
-xeon.sendMessage(from, buffer, image, { quoted: mek, thumbnail: fs.readFileSync('./xeon.jpg')})
-break
-case  'hentai': 
-if (!isGroup) return reply('this feature is only for groups')
-if (!isNsfw) return reply(`Nsfw feature is not yet active in this group\nType: ${prefix}nsfw 1 \To activate`)
-reply(mess.wait)
-anu = await fetchJson(`https://waifu.pics/api/nsfw/neko`)
-buffer = await getBuffer(anu.url)
-xeon.sendMessage(from, buffer, image, { quoted: mek, thumbnail: fs.readFileSync('./xeon.jpg')})
-break
-case  'megumin':
-if (!isGroup) return reply('this feature is only for groups')
-if (!isNsfw) return reply(`Nsfw feature is not yet active in this group\nType: ${prefix}nsfw 1 \To activate`)
-reply(mess.wait)
-anu = await fetchJson(`https://waifu.pics/api/sfw/megumin`)
-buffer = await getBuffer(anu.url)
-xeon.sendMessage(from, buffer, image, { quoted: mek, thumbnail: fs.readFileSync('./xeon.jpg')})
-break
-case  'neko':
-if (!isGroup) return reply('this feature is only for groups')
-if (!isNsfw) return reply(`Nsfw feature is not yet active in this group\nType: ${prefix}nsfw 1 \To activate`)
-reply(mess.wait)
-anu = await fetchJson(`https://waifu.pics/api/nsfw/neko`)
-buffer = await getBuffer(anu.url)
-xeon.sendMessage(from, buffer, image, { quoted: mek, thumbnail: fs.readFileSync('./xeon.jpg')})
-break
-case  'trapnime':
-if (!isGroup) return reply('this feature is only for groups')
-if (!isNsfw) return reply(`Nsfw feature is not yet active in this group\nType: ${prefix}nsfw 1 \To activate`)
-reply(mess.wait)
-anu = await fetchJson(`https://waifu.pics/api/nsfw/trap`)
-buffer = await getBuffer(anu.url)
-xeon.sendMessage(from, buffer, image, { quoted: mek, thumbnail: fs.readFileSync('./xeon.jpg')})
-break
-//Done
-case 'writeleft':
-if (!c) return reply('Where is the text bro??')
-reply(mess.wait)
-kon = await getBuffer(`https://hardianto-chan.herokuapp.com/api/nuliskiri?text=${c}&apikey=${hardi}`)
-buttons = [{buttonId: `writeleft`,buttonText:{displayText: `Write List🔖`},type:1}]
-              imageMsg = (await xeon.prepareMessageMedia(kon, "imageMessage", { thumbnail: kon, })).imageMessage
-              buttonsMessage = {footerText:'𝐃𝐨𝐠𝐞 𝐁𝐨𝐭', imageMessage: imageMsg,
-              contentText:`ɴᴏᴛᴇ: ʜᴏʀɴʏ = ʙᴏɴᴋs`,buttons,headerType:4}
-              prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
-              xeon.relayWAMessage(prep)
-      
-break
-case 'writedown':
-if (!c) return reply('Where is the text bro??')
-reply(mess.wait)
-kon = await getBuffer(`https://hardianto-chan.herokuapp.com/api/nuliskanan?text=${c}&apikey=${hardi}`)
-buttons = [{buttonId: `writelist`,buttonText:{displayText: `Write List🔖`},type:1}]
-              imageMsg = (await xeon.prepareMessageMedia(kon, "imageMessage", { thumbnail: kon, })).imageMessage
-              buttonsMessage = {footerText:'𝐃𝐨𝐠𝐞 𝐁𝐨𝐭', imageMessage: imageMsg,
-              contentText:`ɴᴏᴛᴇ: ʜᴏʀɴʏ = ʙᴏɴᴋs`,buttons,headerType:4}
-              prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
-              xeon.relayWAMessage(prep)
-     
-break
-case 'folioright':
-if (!c) return reply('Where is the text bro??')
-reply(mess.wait)
-kon = await getBuffer(`https://hardianto-chan.herokuapp.com/api/foliokanan?text=${c}&apikey=${hardi}`)
-buttons = [{buttonId: `writelist`,buttonText:{displayText: `Write List🔖`},type:1}]
-              imageMsg = (await xeon.prepareMessageMedia(kon, "imageMessage", { thumbnail: kon, })).imageMessage
-              buttonsMessage = {footerText:'𝐃𝐨𝐠𝐞 𝐁𝐨𝐭', imageMessage: imageMsg,
-              contentText:`ɴᴏᴛᴇ: ʜᴏʀɴʏ = ʙᴏɴᴋs`,buttons,headerType:4}
-              prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
-              xeon.relayWAMessage(prep)
-break
-case 'xs':
-if (!c) return reply('Looking for what?')
-pepex = await fetchJson(`https://bx-hunter.herokuapp.com/api/xvideosearch?query=${c}&apikey=${HunterApi}`)
-reply(mess.wait)
-pepex = pepex.result
-ini_txt = ""
-for (var x of pepex) {
-ini_txt += `Title : ${x.title}\n`
-ini_txt += `Info : ${x.info}\n`
-ini_txt += `Link : ${x.link}\n\n\n`
-}
-anu = `${ini_txt}───────────────\n\n┌ ◪ *DOWNLOAD*
-└ ${prefix}xvideo [link xvid] = Video`
-xeon.sendMessage(from, anu, text, {quoted: mek})
-break
-case 'xvideo':
-case 'xv': 
-if (!c) return reply('the link?')
-x = await fetchJson(`https://bx-hunter.herokuapp.com/api/xvideodetail?url=${c}&apikey=${HunterApi}`)
-reply(mess.wait)
-vid = await getBuffer(x.result.files.low)
-xeon.sendMessage(from, vid, video, {quoted: mek})
-break
-case 'writelist':
-  reply(`Example ${prefix}write tes
-  🌿 ${prefix}write Xeon
-  🌿 ${prefix}folioright Xeon
-  🌿 ${prefix}folioleft Xeon
-  🌿 ${prefix}writedown Xeon
-  🌿 ${prefix}writeleft Xeon`)
-  break
-case 'folioleft':
-if (!c) return reply('Where is the text bro??')
-reply(mess.wait)
-kon = await getBuffer(`https://hardianto-chan.herokuapp.com/api/foliokiri?text=${c}&apikey=${hardi}`)
-buttons = [{buttonId: `writelist`,buttonText:{displayText: `Write List🔖`},type:1}]
-              imageMsg = (await xeon.prepareMessageMedia(kon, "imageMessage", { thumbnail: kon, })).imageMessage
-              buttonsMessage = {footerText:'𝐃𝐨𝐠𝐞 𝐁𝐨𝐭', imageMessage: imageMsg,
-              contentText:`ɴᴏᴛᴇ: ʜᴏʀɴʏ = ʙᴏɴᴋs`,buttons,headerType:4}
-              prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
-              xeon.relayWAMessage(prep)
-break
-case 'nsfw':
-	        if (!isGroup) return reply('this feature is only for groups')
-			if (!isOwner && !isGroupAdmins) return reply('only admin can use this feature')
-					if (args.length < 1) return reply(`to activate type : ${prefix}nsfw 1`)
-					if (Number(args[0]) === 1) {
-						if (isNsfw) return reply('Already Activated')
-						nsfww.push(from)
-						fs.writeFileSync('./database/nsfww.json', JSON.stringify(nsfww))
-						reply('Successfully activated the nsfw feature')
-						xeon.sendMessage(from, `Free to Find Hentai 🗿`, text)
-					} else if (Number(args[0]) === 0) {
-						if (!isNsfw) return reply('Its off')
-						var ini = nsfww.indexOf(from)
-						nsfww.splice(ini, 1)
-						fs.writeFileSync('./database/nsfww.json', JSON.stringify(nsfww))
-						reply('Successfully disable the nsfw feature')
-					} else {
-						reply('1 to turn on, 0 to turn off')
-					}
-					break
-
-			case 'maker3d': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} Xeon`)
-					makell = body.slice(8)
-					reply(mess.wait)
-					anu = await fetchJson(`https://api-xchillds.herokuapp.com/api/maker3d?text=${makell}&apikey=${xchillds}`)
-					buffer1 = await getBuffer(anu.result.results)
-					xeon.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./xeon.jpg')})
-					break
-			case 'maker3d2': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} Xeon`)
-					makell = args.join(" ")
-					reply(mess.wait)
-					anu = await fetchJson(`https://api-xchillds.herokuapp.com/api/maker3d/no2?text=${makell}&apikey=${xchillds}`)
-					buffer1 = await getBuffer(anu.result.results)
-					xeon.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./xeon.jpg')})
-					break
-			case 'maker3d3': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} Xeon`)
-					makell = args.join(" ")
-					reply(mess.wait)
-					anu = await fetchJson(`https://api-xchillds.herokuapp.com/api/maker3d/no3?text=${makell}&apikey=${xchillds}`)
-					buffer1 = await getBuffer(anu.result.results)
-					xeon.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./xeon.jpg')})
-					break
-			case 'maker3d4': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} Xeon`)
-					makell = args.join(" ")
-					reply(mess.wait)
-					anu = await fetchJson(`https://api-xchillds.herokuapp.com/api/maker3d/no4?text=${makell}&apikey=${xchillds}`)
-					buffer1 = await getBuffer(anu.result.results)
-					xeon.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./xeon.jpg')})
-					break
-			case 'transformer': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} Xeon`)
-					makell = args.join(" ")
-					reply(mess.wait)
-					anu = await fetchJson(`https://api-xchillds.herokuapp.com/api/maker/special/transformer?text=${makell}&apikey=${xchillds}`)
-					buffer1 = await getBuffer(anu.result.results)
-					xeon.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./xeon.jpg')})
-					break
-			case 'googletxt2':
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} tsukasa|chan|kawai`)
-					makell = args.join(" ")
-					ll1 = makell.split("|")[0];
-					ll2 = makell.split("|")[1];
-					ll3 = makell.split("|")[0];
-					reply(mess.wait)
-					anu = await fetchJson(`https://api-xchillds.herokuapp.com/api/textmaker?text=${ll1}&text2=${ll2}&text3=${ll3}&theme=google-suggestion&apikey=${xchillds}`)
-					buffer1 = await getBuffer(anu.result.url)
-					xeon.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./xeon.jpg')})
-					break
-			case 'battlefield': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} Xeon|Doge`)
-					makell = args.join(" ")
-					ll1 = makell.split("|")[0];
-					ll2 = makell.split("|")[1];
-					reply(mess.wait)
-					anu = await fetchJson(`https://api-xchillds.herokuapp.com/api/textmaker/game?text=${ll1}&text2=${ll2}&theme=battlefield&apikey=${xchillds}`)
-					buffer1 = await getBuffer(anu.result.url)
-					xeon.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./xeon.jpg')})
-					break
-			case 'coffeecup': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} Xeon`)
-					makell = args.join(" ")
-					reply(mess.wait)
-					anu = await fetchJson(`https://api-xchillds.herokuapp.com/api/textmaker/senja?text=${makell}&theme=coffee-cup&apikey=${xchillds}`)
-					buffer1 = await getBuffer(anu.result.url)
-					xeon.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./xeon.jpg')})
-					break
-			case 'coffeecup2': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} Xeon`)
-					makell = args.join(" ")
-					reply(mess.wait)
-					anu = await fetchJson(`https://api-xchillds.herokuapp.com/api/textmaker/senja?text=${makell}&theme=coffee-cup2&apikey=${xchillds}`)
-					buffer1 = await getBuffer(anu.result.url)
-					xeon.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./xeon.jpg')})
-					break
-			case 'neon': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} Xeon`)
-					makell = args.join(" ")
-					reply(mess.wait)
-					anu = await fetchJson(`https://api-xchillds.herokuapp.com/api/textmaker/metallic?text=${makell}&theme=neon&apikey=${xchillds}`)
-					buffer1 = await getBuffer(anu.result.url)
-					xeon.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./xeon.jpg')})
-					break
-              case 'glow': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} Xeon`)
-					makell = args.join(" ")
-					reply(mess.wait)
-					anu = await fetchJson(`https://api-xchillds.herokuapp.com/api/textmaker/metallic?text=${makell}&theme=glow&apikey=${xchillds}`)
-					buffer1 = await getBuffer(anu.result.url)
-					xeon.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./xeon.jpg')})
-					break
-			case 'summer': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} Xeon`)
-					makell = args.join(" ")
-					reply(mess.wait)
-					anu = await fetchJson(`https://api-xchillds.herokuapp.com/api/textmaker/alam?text=${makell}&theme=summer&apikey=${xchillds}`)
-					buffer1 = await getBuffer(anu.result.url)
-					xeon.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./xeon.jpg')})
-					break
-			case 'flower': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} Xeon`)
-					makell = args.join(" ")
-					reply(mess.wait)
-					anu = await fetchJson(`https://api-xchillds.herokuapp.com/api/textmaker/alam?text=${makell}&theme=flower&apikey=${xchillds}`)
-					buffer1 = await getBuffer(anu.result.url)
-					xeon.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./xeon.jpg')})
-					break
-			case 'burn': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} Xeon`)
-					makell = args.join(" ")
-					reply(mess.wait)
-					anu = await fetchJson(`https://api-xchillds.herokuapp.com/api/textmaker/random?text=${makell}&theme=text-burn&apikey=${xchillds}`)
-					buffer1 = await getBuffer(anu.result.url)
-					xeon.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./xeon.jpg')})
-					break
-			case 'quote': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} Xeon`)
-					makell = args.join(" ")
-					reply(mess.wait)
-					anu = await fetchJson(`https://api-xchillds.herokuapp.com/api/textmaker/random?text=${makell}&theme=art-quote&apikey=${xchillds}`)
-					buffer1 = await getBuffer(anu.result.url)
-buttons = [{buttonId: `quote`,buttonText:{displayText: `Thx Dah Pake`},type:1}]
-              imageMsg = (await xeon.prepareMessageMedia(buffer1, "imageMessage", { thumbnail: buffer1, })).imageMessage
-              buttonsMessage = {footerText:'𝐃𝐨𝐠𝐞 𝐁𝐨𝐭', imageMessage: imageMsg,
-              contentText:`ɴᴏᴛᴇ: ʜᴏʀɴʏ = ʙᴏɴᴋs`,buttons,headerType:4}
-              prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
-              xeon.relayWAMessage(prep)
-					break
-			case 'wooden': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} Xeon`)
-					makell = args.join(" ")
-					reply(mess.wait)
-					anu = await fetchJson(`https://api-xchillds.herokuapp.com/api/textmaker/roses?text=${makell}&theme=wooden-boarch&apikey=${xchillds}`)
-					buffer1 = await getBuffer(anu.result.url)
-					xeon.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./xeon.jpg')})
-					break
-			case 'golden': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} Xeon`)
-					makell = args.join(" ")
-					reply(mess.wait)
-					anu = await fetchJson(`https://api-xchillds.herokuapp.com/api/textmaker/roses?text=${makell}&theme=golden&apikey=${xchillds}`)
-					buffer1 = await getBuffer(anu.result.url)
-					xeon.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./xeon.jpg')})
-					break
-case 'vnsecond':
-encmediam = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
-					mediam = await xeon.downloadAndSaveMediaMessage(encmediam)
-					cokmatane = Number(args[0])
-					hah = fs.readFileSync(mediam)
-						xeon.sendMessage(from, hah, audio, {mimetype: 'audio/mp4', duration: cokmatane, ptt: true, quoted:fvn})
-						fs.unlinkSync(mediam)
-				break
-				case 'vidsecond':
-				encmedian = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
-					median = await xeon.downloadAndSaveMediaMessage(encmedian)
-					cokmatane = Number(args[0])
-					hah = fs.readFileSync(median)
-						xeon.sendMessage(from, hah, video, {mimetype: 'video/mp4', duration: cokmatane, quoted: fvid})
-						fs.unlinkSync(median)
-				break
-      case "colongsw": //arif
-        if (!mek.key.fromMe) return;
-        if ((isMedia && !mek.message.videoMessage) || isQuotedImage) {
-          ger = isQuotedImage
-            ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
-                .extendedTextMessage.contextInfo
-            : mek;
-          owgi = await xeon.downloadAndSaveMediaMessage(ger);
-          xeon.sendMessage(sender, fs.readFileSync(owgi), "imageMessage", {
-            caption: q,
-          });
-          reply("Success");
-          fs.unlinkSync(owgi);
-        } else if ((isMedia && !mek.message.videoMessage) || isQuotedVideo) {
-          ger = isQuotedVideo
-            ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
-                .extendedTextMessage.contextInfo
-            : mek;
-          owgi = await xeon.downloadAndSaveMediaMessage(ger);
-          xeon.sendMessage(sender, fs.readFileSync(owgi), "videoMessage", {
-            caption: q,
-          });
-          reply("Success");
-          fs.unlinkSync(owgi);
-        } else {
-          reply("Reply to the photo / video that you want to help");
-        }
-        break;
-
-      case "caripesan":
-        if (!q) return reply("whats the message?");
-        let v = await xeon.searchMessages(q, from, 10, 1);
-        let s = v.messages;
-        let el = s.filter((v) => v.message);
-        el.shift();
-        try {
-          if (el[0].message.conversation == undefined) return;
-          reply(`Ditemukan ${el.length} pesan`);
-          await sleep(3000);
-          for (let i = 0; i < el.length; i++) {
-            await xeon.sendMessage(from, "Here is the message", text, {
-              quoted: el[i],
-            });
-          }
-         } catch (e) {
-          reply("Message not found!");
-        }
-        break;
-      case "lyrics":
-        if (!q) return reply("What song is it?");
-        let song = await hx.lirik(q);
-        sendMediaURL(from, song.thumb, song.lirik);
-        break;
-      case "otaku":
-        if (!q) return reply("anime title?");
-        let anime = await hx.otakudesu(q);
-        rem = `*Title* : ${anime.judul}
-*Japan* : ${anime.jepang}
-*Rating* : ${anime.rate}
-*Producer* : ${anime.produser}
-*Status* : ${anime.status}
-*Episode* : ${anime.episode}
-*Duration* : ${anime.durasi}
-*Release* : ${anime.rilis}
-*Studio* : ${anime.studio}
-*Genre* : ${anime.genre}\n
-*Synopsis* :
-${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.batchSD}\n*Link Download HD* : ${anime.batchHD}`;
-        ram = await getBuffer(anime.img);
-        xeon.sendMessage(from, ram, image, { quoted: mek, caption: rem });
-        break;
-      case "comic":
-        if (!q) return reply(`judulnya?\n${prefix}comic dont want to`);
-        let komik = await hx.komiku(q);
-        result = `*Title* : ${komik.title}\n
-*Title* : ${komik.indo}\n
-*Update* : ${komik.update}\n
-*Desc* : ${komik.desc}\n
-*Early Chapter* : ${komik.chapter_awal}
-*Final Chapter* : ${komik.chapter_akhir}`;
-        sendMediaURL(from, komik.image, result);
-        break;
-      case "chara":
-        if (!q) return reply(`What picture is it?\n${prefix}chara xeon`);
-        let im = await hx.chara(q);
-        let acak = im[Math.floor(Math.random() * im.length)];
-        let li = await getBuffer(acak);
-        await xeon.sendMessage(from, li, image, { quoted: mek });
-        break;
-      case 'pinterest':
-        /*if (!q) return reply("gambar apa?");*/
-        reply(mess.wait)
-        let pin = await hx.pinterest(q);
-        let ac = pin[Math.floor(Math.random() * pin.length)];
-        let di = await getBuffer(ac);
-buttons = [{buttonId: `pinterest`,buttonText:{displayText: `➡️Next`},type:1}]
-              imageMsg = (await xeon.prepareMessageMedia(di, "imageMessage", { thumbnail: di, })).imageMessage
-              buttonsMessage = {footerText:'𝐃𝐨𝐠𝐞 𝐁𝐨𝐭', imageMessage: imageMsg,
-              contentText:`ɴᴏᴛᴇ: ʜᴏʀɴʏ = ʙᴏɴᴋs`,buttons,headerType:4}
-              prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
-              xeon.relayWAMessage(prep)
-        break;
-      case "playstore":
-        if (!q) return reply("what are you looking for?");
-        let play = await hx.playstore(q);
-        let store = "❉─────────────────────❉\n";
-        for (let i of play) {
-          store += `\n*「 _PLAY STORE_ 」*\n
-- *Name* : ${i.name}
-- *Link* : ${i.link}\n
-- *Dev* : ${i.developer}
-- *Link Dev* : ${i.link_dev}\n❉─────────────────────❉`;
-        }
-        reply(store);
-        break;
-      case "on":
-        if (!mek.key.fromMe) return;
-        offline = false;
-        fakestatus(" ```YOU ARE ONLINE``` ");
-        break;
-      case "status":
-        fakestatus(
-          `*STATUS*\n${offline ? "> OFFLINE" : "> ONLINE"}\n${
-            banChats ? "> SELF-MODE" : "> PUBLIC-MODE"
-          }\n${prefixStatus ? "> MULTI-PREFIX" : "> NO-PREFIX"}`
-        );
-        break;
-      case "off":
-        if (!mek.key.fromMe) return;
-        offline = true;
-        waktu = Date.now();
-        anuu = q ? q : "-";
-        alasan = anuu;
-        fakestatus(" ```YOU ARE OFFLINE``` ");
-        break;
-      case "get":
-        if (!q) return reply("The link?");
-        fetch(`${args[0]}`)
-          .then((res) => res.text())
-          .then((bu) => {
-            fakestatus(bu);
-          });
-        break;
-      case "contag":
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak});
-					if (!isGroup) return reply('this feature is only for groups');
-					if (!isGroupAdmins) return reply('only admin can use this feature');
-        pe = args.join("");
-        entah = pe.split("|")[0];
-        nah = pe.split("|")[1];
-        if (isNaN(entah)) return reply("Invalid phone number");
-        members_ids = [];
-        for (let mem of groupMembers) {
-          members_ids.push(mem.jid);
-        }
-        vcard =
-          "BEGIN:VCARD\n" +
-          "VERSION:3.0\n" +
-          `FN:${nah}\n` +
-          `TEL;type=CELL;type=VOICE;waid=${entah}:${phoneNum(
-            "+" + entah
-          ).getNumber("internasional")}\n` +
-          "END:VCARD".trim();
-        xeon.sendMessage(
-          from,
-          { displayName: `${nah}`, vcard: vcard },
-          contact,
-          { contextInfo: { mentionedJid: members_ids } }
-        );
-        break;
-      case "sticktag":
-            case "stickertag":
-            if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak});
-					if (!isGroup) return reply('this feature is only for groups');
-					if (!isGroupAdmins) return reply('only admin can use this feature');
-        if (
-          ((isMedia && !mek.message.videoMessage) || isQuotedSticker) &&
-          args.length == 0
-        ) {
-          encmedia = isQuotedSticker
-            ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
-                .extendedTextMessage.contextInfo
-            : mek;
-          file = await xeon.downloadAndSaveMediaMessage(
-            encmedia,
-            (filename = getRandom())
-          );
-          value = args.join(" ");
-          var group = await xeon.groupMetadata(from);
-          var member = group["participants"];
-          var mem = [];
-          member.map(async (adm) => {
-            mem.push(adm.id.replace("c.us", "s.whatsapp.net"));
-          });
-          var options = {
-            contextInfo: { mentionedJid: mem },
-            quoted: mek,
-          };
-          ini_buffer = fs.readFileSync(file);
-          xeon.sendMessage(from, ini_buffer, sticker, options);
-          fs.unlinkSync(file);
-        } else {
-          reply(`*Reply sticker that has been sent*`);
-        }
-        break;
-      case "totag":
-        if (
-          ((isMedia && !mek.message.videoMessage) || isQuotedSticker) &&
-          args.length == 0
-        ) {
-          encmedia = isQuotedSticker
-            ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
-                .extendedTextMessage.contextInfo
-            : mek;
-          file = await xeon.downloadAndSaveMediaMessage(
-            encmedia,
-            (filename = getRandom())
-          );
-          value = args.join(" ");
-          var group = await xeon.groupMetadata(from);
-          var member = group["participants"];
-          var mem = [];
-          member.map(async (adm) => {
-            mem.push(adm.id.replace("c.us", "s.whatsapp.net"));
-          });
-          var options = {
-            contextInfo: { mentionedJid: mem },
-            quoted: mek,
-          };
-          ini_buffer = fs.readFileSync(file);
-          xeon.sendMessage(from, ini_buffer, sticker, options);
-          fs.unlinkSync(file);
-        } else if (
-          ((isMedia && !mek.message.videoMessage) || isQuotedImage) &&
-          args.length == 0
-        ) {
-          encmedia = isQuotedImage
-            ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
-                .extendedTextMessage.contextInfo
-            : mek;
-          file = await xeon.downloadAndSaveMediaMessage(
-            encmedia,
-            (filename = getRandom())
-          );
-          value = args.join(" ");
-          var group = await xeon.groupMetadata(from);
-          var member = group["participants"];
-          var mem = [];
-          member.map(async (adm) => {
-            mem.push(adm.id.replace("c.us", "s.whatsapp.net"));
-          });
-          var options = {
-            contextInfo: { mentionedJid: mem },
-            quoted: mek,
-          };
-          ini_buffer = fs.readFileSync(file);
-          xeon.sendMessage(from, ini_buffer, image, options);
-          fs.unlinkSync(file);
-        } else if (
-          ((isMedia && !mek.message.videoMessage) || isQuotedAudio) &&
-          args.length == 0
-        ) {
-          encmedia = isQuotedAudio
-            ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
-                .extendedTextMessage.contextInfo
-            : mek;
-          file = await xeon.downloadAndSaveMediaMessage(
-            encmedia,
-            (filename = getRandom())
-          );
-          value = args.join(" ");
-          var group = await xeon.groupMetadata(from);
-          var member = group["participants"];
-          var mem = [];
-          member.map(async (adm) => {
-            mem.push(adm.id.replace("c.us", "s.whatsapp.net"));
-          });
-          var options = {
-            mimetype: "audio/mp4",
-            ptt: true,
-            contextInfo: { mentionedJid: mem },
-            quoted: mek,
-          };
-          ini_buffer = fs.readFileSync(file);
-          xeon.sendMessage(from, ini_buffer, audio, options);
-          fs.unlinkSync(file);
-        } else if (
-          ((isMedia && !mek.message.videoMessage) || isQuotedVideo) &&
-          args.length == 0
-        ) {
-          encmedia = isQuotedVideo
-            ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
-                .extendedTextMessage.contextInfo
-            : mek;
-          file = await xeon.downloadAndSaveMediaMessage(
-            encmedia,
-            (filename = getRandom())
-          );
-          value = args.join(" ");
-          var group = await xeon.groupMetadata(from);
-          var member = group["participants"];
-          var mem = [];
-          member.map(async (adm) => {
-            mem.push(adm.id.replace("c.us", "s.whatsapp.net"));
-          });
-          var options = {
-            mimetype: "video/mp4",
-            contextInfo: { mentionedJid: mem },
-            quoted: mek,
-          };
-          ini_buffer = fs.readFileSync(file);
-          xeon.sendMessage(from, ini_buffer, video, options);
-          fs.unlinkSync(file);
-        } else {
-          reply(
-            `reply image/sticker/audio/video with caption ${prefix}totag`
-          );
-        }
-        break;
-      case "slander":
-        if (args.length < 1)
-          return reply(
-            `Usage :\n${prefix}slander [@tag|message|replybot]]\n\nEx : \n${prefix}slander @tagmember|hi|hi too`
-          );
-        var gh = args.join("");
-        mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid;
-        var replace = gh.split("|")[0];
-        var target = gh.split("|")[1];
-        var bot = gh.split("|")[2];
-        xeon.sendMessage(from, `${bot}`, text, {
-          quoted: {
-            key: {
-              fromMe: false,
-              participant: `${mentioned}`,
-              ...(from ? { remoteJid: from } : {}),
-            },
-            message: { conversation: `${target}` },
-          },
-        });
-        break;
-      case "settarget":
-        if (!q) return reply(`${prefix}settarget 919xxxxx`);
-        targetpc = args[0];
-        fakegroup(`Success Changing the target of slanderpc : ${targetpc}`);
-        break;
-      case "slanderpc":
-        if (!q) return reply(`${prefix}slanderpc target text|your text`);
-        jids = `${targetpc}@s.whatsapp.net`; // nomer target
-        var split = args.join(" ").replace(/@|\d/gi, "").split("|");
-        var taged = mek.message.extendedTextMessage.contextInfo.mentionedJid[0];
-        var options = {
-          contextInfo: {
-            quotedMessage: { extendedTextMessage: { text: split[0] } },
-          },
-        };
-        const responye = await xeon.sendMessage(
-          jids,
-          `${split[1]}`,
-          MessageType.text,
-          options
-        );
-        await xeon.deleteMessage(jids, {
-          id: responye.messageID,
-          remoteJid: jids,
-          fromMe: true,
-        });
-        break;
-      case "tomp3":
-        if (!isQuotedVideo) return fakegroup("Reply the video!");
-        fakegroup(mess.wait);
-        encmedia = JSON.parse(JSON.stringify(mek).replace("quotedM", "m"))
-          .message.extendedTextMessage.contextInfo;
-        media = await xeon.downloadAndSaveMediaMessage(encmedia);
-        ran = getRandom(".mp4");
-        exec(`ffmpeg -i ${media} ${ran}`, (err) => {
-          fs.unlinkSync(media);
-          if (err) return fakegroup(`Err: ${err}`);
-          buffer453 = fs.readFileSync(ran);
-          xeon.sendMessage(from, buffer453, audio, {
-            mimetype: "audio/mp4",
-            quoted: mek,
-          });
-          fs.unlinkSync(ran);
-        });
-        break;
-      case "fast":
-        if (!isQuotedVideo) return fakegroup("Reply video!");
-        fakegroup(mess.wait);
-        encmedia = JSON.parse(JSON.stringify(mek).replace("quotedM", "m"))
-          .message.extendedTextMessage.contextInfo;
-        media = await xeon.downloadAndSaveMediaMessage(encmedia);
-        ran = getRandom(".mp4");
-        exec(
-          `ffmpeg -i ${media} -filter_complex "[0:v]setpts=0.5*PTS[v];[0:a]atempo=2[a]" -map "[v]" -map "[a]" ${ran}`,
-          (err) => {
-            fs.unlinkSync(media);
-            if (err) return fakegroup(`Err: ${err}`);
-            buffer453 = fs.readFileSync(ran);
-            xeon.sendMessage(from, buffer453, video, {
-              mimetype: "video/mp4",
-              quoted: mek,
-            });
-            fs.unlinkSync(ran);
-          }
-        );
-        break;
-      case "slow":
-        if (!isQuotedVideo) return fakegroup("Reply video!");
-        fakegroup(mess.wait);
-        encmedia = JSON.parse(JSON.stringify(mek).replace("quotedM", "m"))
-          .message.extendedTextMessage.contextInfo;
-        media = await xeon.downloadAndSaveMediaMessage(encmedia);
-        ran = getRandom(".mp4");
-        exec(
-          `ffmpeg -i ${media} -filter_complex "[0:v]setpts=2*PTS[v];[0:a]atempo=0.5[a]" -map "[v]" -map "[a]" ${ran}`,
-          (err) => {
-            fs.unlinkSync(media);
-            if (err) return fakegroup(`Err: ${err}`);
-            buffer453 = fs.readFileSync(ran);
-            xeon.sendMessage(from, buffer453, video, {
-              mimetype: "video/mp4",
-              quoted: mek,
-            });
-            fs.unlinkSync(ran);
-          }
-        );
-        break;
-      case "reverse":
-        if (!isQuotedVideo) return fakegroup("Reply the video!");
-        encmedia = JSON.parse(JSON.stringify(mek).replace("quotedM", "m"))
-          .message.extendedTextMessage.contextInfo;
-        media = await xeon.downloadAndSaveMediaMessage(encmedia);
-        ran = getRandom(".mp4");
-        exec(`ffmpeg -i ${media} -vf reverse -af areverse ${ran}`, (err) => {
-          fs.unlinkSync(media);
-          if (err) return fakegroup(`Err: ${err}`);
-          buffer453 = fs.readFileSync(ran);
-          xeon.sendMessage(from, buffer453, video, {
-            mimetype: "video/mp4",
-            quoted: mek,
-          });
-          fs.unlinkSync(ran);
-        });
-        break;
-  case 'buttons5':
-              const mathdare = dare[Math.floor(Math.random() * (dare.length))]
-              result = `${mathdare}`
-              buttons = [{buttonId: `buttons6`,buttonText:{displayText: 'Truth'},type:1},{buttonId:`buttons5`,buttonText:{displayText:'Dare'},type:1}]
-              buttonsMessage = { contentText: `${result}`, footerText: 'Play again?', buttons: buttons, headerType: 1 }
-              prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{})
-              xeon.relayWAMessage(prep)
-              break
-          case 'buttons6':
-              const randomtruth = truth[Math.floor(Math.random() * truth.length)]
-              result = `${randomtruth}`
-              buttons = [{buttonId: `buttons6`,buttonText:{displayText: 'Truth'},type:1},{buttonId:`buttons5`,buttonText:{displayText:'Dare'},type:1}]
-              buttonsMessage = { contentText: `${result}`, footerText: 'Play again?', buttons: buttons, headerType: 1 }
-              prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{})
-              xeon.relayWAMessage(prep)
-              break
-          case 'tod':
-          case 'truth':
-          case 'dare':
-              result =`*Truth Or Dare*\nPlayers are given a choice between answering questions honestly, or taking on the challenge given`
-              buttons = [{buttonId: `buttons6`,buttonText:{displayText: 'Truth'},type:1},{buttonId:`buttons5`,buttonText:{displayText:'Dare'},type:1}]
-              buttonsMessage = { contentText: `${result}`, footerText: 'Truth or Dare?', buttons: buttons, headerType: 1 }
-              prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{contextInfo: { mentionedJid: [sender]},quoted:ftex})
-              xeon.relayWAMessage(prep)
-              break
-      case "anime":
-        reply(mess.wait);
-        fetch(
-          "https://raw.githubusercontent.com/pajaar/grabbed-results/master/pajaar-2020-gambar-anime.txt"
-        )
-          .then((res) => res.text())
-          .then((body) => {
-            let tod = body.split("\n");
-            let pjr = tod[Math.floor(Math.random() * tod.length)];
-            imageToBase64(pjr)
-              .then((response) => {
-                media = Buffer.from(response, "base64");
-                xeon.sendMessage(from, media, image, {
-                  quoted: mek,
-                  caption: "Here",
-                });
-              })
-              .catch((error) => {
-                console.log(error);
-              });
-          });
-        break;
-case 'calculator':
-				 var mtk = body.slice(12)
-				 teks = `${mtk} = ${Math_js.evaluate(mtk)}`
-				 reply(teks)
-				 break
-	
-				case 'nointext':
-				if (args.length < 1) return reply('The numbers?')
-				var teks = body.slice(13)
-				anu = await fetchJson(`https://bx-hunter.herokuapp.com/api/bilangangka?angka=${teks}&apikey=${HunterApi}`, {method: 'get'})
-				kata = anu.result
-				reply(kata)
-				break
-			
-  	case 'artinama':	
-  	  reply(mess.wait)
-  rival = await fetchJson(`https://bx-hunter.herokuapp.com/api/artinama?nama=${args[0]}&apikey=${HunterApi}`, {method:'get'})
-  slur = rival.result
-   reply(slur)
-   break
-case 'waifu':
-          case 'loli':
-          case 'husbu':
-          case 'milf':
-          case 'cosplay':
-          case 'wallml':
-              let wipu = (await axios.get(`https://raw.githubusercontent.com/Arya-was/endak-tau/main/${command}.json`)).data
-              let wipi = wipu[Math.floor(Math.random() * (wipu.length))]
-              fs.writeFileSync(`./${sender}.jpeg`, await getBuffer(wipi))
-		      buttons = [{buttonId: `waifu`,buttonText:{displayText: `➡️Next`},type:1},{buttonId:`owner`,buttonText:{displayText:'🦄OWNER'},type:1}]
-              imageMsg = ( await xeon.prepareMessage(from, fs.readFileSync(`./${sender}.jpeg`), 'imageMessage', {thumbnail: Buffer.alloc(0)})).message.imageMessage
-              buttonsMessage = {footerText:'Dont forget to donate lol ☕', imageMessage: imageMsg,
-              contentText:`Click Next to go to the next picture`,buttons,headerType:4}
-              prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: mek})
-              xeon.relayWAMessage(prep)
-              fs.unlinkSync(`./${sender}.jpeg`)
-              break
-   case'songlyrics':
-     reply(mess.wait)
-  apa = await fetchJson(`https://bx-hunter.herokuapp.com/api/music/liriklagu?query=${args[0]}&apikey=${HunterApi}`,{method:'get'})
-  apa2 = apa.result
-  reply(apa2)
-  break
-                      case 'song':
-            if (args.length == 0) return reply('song name bro?')
-            query = args.join(" ")
-            get_resultL = await fetchJson(`https://ziy.herokuapp.com/api/play?apikey=xZiyy&judul=${query}`)
-            get_resultP = get_resultL.result
-            textP =`
-*YOUTUBE PLAY*
-
-Title : ${get_resultP.judul}
-Link : ${get_resultP.url_audio}
-            `
-            xeon.sendMessage(from, textP, text,{contextInfo:{
-            "forwardingScore": 1000000000,
-            isForwarded: false,
-            sendEphemeral: false,
-            "externalAdReply": {
-            "title": `Hello ${pushname}` ,
-            "body": `Here ${query}`,
-            "mediaType": "2",
-            "thumbnailUrl": `${get_resultP.image_thumbnail}`,
-            "mediaUrl": "https://youtu.be/CsMOwV0QGMk",
-            "thumbnail": fs.readFileSync("./xeon.jpg"),
-            "sourceUrl": "http://ziy.herokuapp.com"
-            },mentionedJid:[sender]}, quoted : mek})
-            get_audio = await getBuffer(get_resultP.url_audio)
-            xeon.sendMessage(from, get_audio, audio, { mimetype: Mimetype.mp4Audio, filename: `${get_resultP.title}.mp3`, quoted: mek})
-            break
-case 'attp':
-              if (args.length == 0) return reply(`Example: ${prefix + command} xeon`)
-              buffer = await getBuffer(`https://api.xteam.xyz/attp?file&text=${encodeURI(q)}`)
-              xeon.sendMessage(from, buffer, sticker, { quoted: freply })
-              break
-					case 'githubstalk':
-					if (args.length < 1) return reply('Username?')
-					var teks = body.slice(13)
-					anu = await fetchJson(`https://bx-hunter.herokuapp.com/api/stalk/github?user=${teks}&apikey=${HunterApi}`, {method: 'get'})
-					gstalk = `❏ *GITHUB STALK*\n\n❏ Name : ${anu.result.name}\n❏ Followers : ${anu.result.followers}\n❏ Following : ${anu.result.following}\n❏ Id : ${anu.result.id}\n❏ Node Id : ${anu.result.node_id}\n❏ Type : ${anu.result.type}\n❏ Company : ${anu.result.company}\n❏ Location : ${anu.result.location}\n❏ Bio : ${anu.result.bio}\n❏ Site Admin : ${anu.result.site_admin}\n❏ Email : ${anu.result.email}\n❏ Created At : ${anu.result.created_at}\n❏ Updated At : ${anu.result.updated_at}\n❏ Twitter Username : ${anu.result.twitter_username}\n❏ Blog : ${anu.result.blog}\n❏ Avatar Url : ${anu.result.avatar_url}\n❏ Gravatar Id : ${anu.result.gravatar_id}\n❏ Html Url : ${anu.result.html_url}`
-					reply(mess.wait)
-					buff = await getBuffer(anu.result.avatar_url)
-					xeon.sendMessage(from, buff, image, {quoted: ftok, caption: gstalk})
-					break 
-					case 'infoearthquake':
-					anu = await fetchJson(`https://bx-hunter.herokuapp.com/api/info/gempa?apikey=${HunterApi}`, {method: 'get'})
-					gempa = `❏ *INFO EARTHQUAKE*\n\n❏ Time : ${anu.result.Waktu}\n❏ Latitude : ${anu.result.Lintang}\n❏ Longitude : ${anu.result.Bujur}\n❏ Magnitude : ${anu.result.Magnitudo}\n❏ Depth : ${anu.result.Kedalaman}\n❏ Region : ${anu.result.Wilayah}`
-					reply(mess.wait)
-					buff = await getBuffer(anu.result.Map)
-					xeon.sendMessage(from, buff, image, {quoted: ftok, caption: gempa})
-					break 
-      case "contact":
-        pe = args.join(" ");
-        entah = pe.split("|")[0];
-        nah = pe.split("|")[1];
-        if (isNaN(entah)) return reply("Invalid phone number");
-        vcard =
-          "BEGIN:VCARD\n" +
-          "VERSION:3.0\n" +
-          `FN:${nah}\n` +
-          `TEL;type=CELL;type=VOICE;waid=${entah}:${phoneNum(
-            "+" + entah
-          ).getNumber("internasional")}\n` +
-          "END:VCARD".trim();
-        xeon.sendMessage(
-          from,
-          { displayName: `${nah}`, vcard: vcard },
-          contact
-        );
-        break;
-case 'antidelete':
-if (!isOwner && !itsMe) return
-if (args.length < 1) return reply('Select on or off')
-if (args[0] === "on") {
-if(antidel)return reply('It has been activated before!')
-antidel = true
-reply(`Succesfully activated antidelete`)
-} else if (args[0] === "off") {
-if(!antidel)return reply('It has been deactivated before!')
-antidel = false
-reply(`Successfully turned off antidelete`)
-} else {
-reply(`Select on or off`)
-}
-break
-      case 'welcome':
-if (!isOwner && !itsMe) return
-if (args.length < 1) return reply('Select on or off')
-if (args[0] === "on") {
-if(welcom)return reply('It has been activated before!')
-welcom = true
-reply(`Succesfully activated welcome`)
-} else if (args[0] === "off") {
-if(!welcom)return reply('It has been deactivated before!')
-welcom = false
-reply(`Successfully turned off welcome`)
-} else {
-reply(`Select on or off`)
-}
-break          
-      case "take":
-      case "colong":
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
-        if (!isQuotedSticker) return reply("Just a sticker");
-        encmedia = JSON.parse(JSON.stringify(mek).replace("quotedM", "m"))
-          .message.extendedTextMessage.contextInfo;
-        media = await xeon.downloadAndSaveMediaMessage(encmedia);
-        anu = args.join(" ").split("|");
-        satu = anu[0] !== "" ? anu[0] : `SELF`;
-        dua = typeof anu[1] !== "undefined" ? anu[1] : `BOT`;
-        require("./lib/fetcher.js").createExif(satu, dua);
-        require("./lib/fetcher.js").modStick(media, xeon, mek, from);
-        break;
-      case "stikerwm":
-      case "stickerwm":
-      case "swm":
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
-        pe = args.join("");
-        var a = pe.split("|")[0];
-        var b = pe.split("|")[1];
-        if ((isMedia && !mek.message.videoMessage) || isQuotedImage) {
-          const encmedia = isQuotedImage
-            ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
-                .extendedTextMessage.contextInfo
-            : mek;
-          media = await xeon.downloadAndSaveMediaMessage(encmedia);
-          await createExif(a, b);
-          out = getRandom(".webp");
-          ffmpeg(media)
-            .on("error", (e) => {
-              console.log(e);
-              xeon.sendMessage(from, "Terjadi kesalahan", "conversation", {
-                quoted: mek,
-              });
-              fs.unlinkSync(media);
-            })
-            .on("end", () => {
-              _out = getRandom(".webp");
-              spawn("webpmux", [
-                "-set",
-                "exif",
-                "./stik/data.exif",
-                out,
-                "-o",
-                _out,
-              ]).on("exit", () => {
-                xeon.sendMessage(
-                  from,
-                  fs.readFileSync(_out),
-                  "stickerMessage",
-                  { quoted: mek }
-                );
-                fs.unlinkSync(out);
-                fs.unlinkSync(_out);
-                fs.unlinkSync(media);
-              });
-            })
-            .addOutputOptions([
-              `-vcodec`,
-              `libwebp`,
-              `-vf`,
-              `scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse`,
-            ])
-            .toFormat("webp")
-            .save(out);
-        } else if (
-          ((isMedia && mek.message.videoMessage.seconds < 11) ||
-            (isQuotedVideo &&
-              mek.message.extendedTextMessage.contextInfo.quotedMessage
-                .videoMessage.seconds < 11)) &&
-          args.length == 0
-        ) {
-          const encmedia = isQuotedVideo
-            ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
-                .extendedTextMessage.contextInfo
-            : mek;
-          const media = await xeon.downloadAndSaveMediaMessage(encmedia);
-          pe = args.join("");
-          var a = pe.split("|")[0];
-          var b = pe.split("|")[1];
-          await createExif(a, b);
-          out = getRandom(".webp");
-          ffmpeg(media)
-            .on("error", (e) => {
-              console.log(e);
-              xeon.sendMessage(from, "There is an error", "conversation", {
-                quoted: mek,
-              });
-              fs.unlinkSync(media);
-            })
-            .on("end", () => {
-              _out = getRandom(".webp");
-              spawn("webpmux", [
-                "-set",
-                "exif",
-                "./stik/data.exif",
-                out,
-                "-o",
-                _out,
-              ]).on("exit", () => {
-                xeon.sendMessage(
-                  from,
-                  fs.readFileSync(_out),
-                  "stickerMessage",
-                  { quoted: mek }
-                );
-                fs.unlinkSync(out);
-                fs.unlinkSync(_out);
-                fs.unlinkSync(media);
-              });
-            })
-            .addOutputOptions([
-              `-vcodec`,
-              `libwebp`,
-              `-vf`,
-              `scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse`,
-            ])
-            .toFormat("webp")
-            .save(out);
-        } else {
-          reply(
-            `Send a picture with a caption ${prefix}swm text|text or image tags that have been sent`
-          );
-        }
-        break;
-
-      case "fdeface":
-        ge = args.join("");
-        var pe = ge.split("|")[0];
-        var pen = ge.split("|")[1];
-        var pn = ge.split("|")[2];
-        var be = ge.split("|")[3];
-        const fde = `send/reply image with caption ${prefix}fdeface link|title|desc|text`;
-        if (args.length < 1) return reply(fde);
-        const dipes =
-          isQuotedSticker || isQuotedImage
-            ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
-                .extendedTextMessage.contextInfo
-            : mek;
-        const tipes = await xeon.downloadAndSaveMediaMessage(dipes);
-        const bufer = fs.readFileSync(tipes);
-        const desc = `${pn}`;
-        const title = `${pen}`;
-        const url = `${pe}`;
-        const buu = `https://${be}`;
-        var anu = {
-          detectLinks: false,
-        };
-        var mat = await xeon.generateLinkPreview(url);
-        mat.title = title;
-        mat.description = desc;
-        mat.jpegThumbnail = bufer;
-        mat.canonicalUrl = buu;
-        xeon.sendMessage(from, mat, MessageType.extendedText, anu);
-        break;
-      case "public":
-        if (!mek.key.fromMe) return reply("This feature is only for the owner 🗿");
-        if (banChats === false) return;
-        // var taged = mek.message.extendedTextMessage.contextInfo.mentionedJid[0]
-        banChats = false;
-        fakeyt(`「 *PUBLIC-MODE* 」`);
-        break;
-      case "self":
-        if (!mek.key.fromMe) return reply("This feature is only for the owner 🗿");
-        if (banChats === true) return;
-        uptime = process.uptime();
-        // var taged = mek.message.extendedTextMessage.contextInfo.mentionedJid[0]
-        banChats = true;
-        fakeyt(`「 *SELF-MODE* 」`);
-        break;
-      case "hidetag":
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak});
-					if (!isGroup) return reply('this feature is only for groups');
-					if (!isGroupAdmins) return reply('only admin can use this feature');
-        var value = args.join(" ");
-        var group = await xeon.groupMetadata(from);
-        var member = group["participants"];
-        var mem = [];
-        member.map(async (adm) => {
-          mem.push(adm.id.replace("c.us", "s.whatsapp.net"));
-        });
-        var optionshidetag = {
-          text: value,
-          contextInfo: { mentionedJid: mem },
-          quoted: mek,
-        };
-        xeon.sendMessage(from, optionshidetag, text);
-        break;
-    
-
-case 'play2':   
-				  if (args.length < 1) return reply('*Enter the title?*')
-                reply('Loading.... ')
-				play6 = args.join(" ")
-				anu = await fetchJson(`https://api.zeks.xyz/api/ytplaymp4?q=${play6}&apikey=${zeksapi}`)
-				if (anu.error) return reply(anu.error)
-				infomp3 = `*「 PLAY VIDEO 」*
-				
-Title : ${anu.result.title}
-Source : ${anu.result.source}
-				
-*[Wait] Wait a moment..*`
-
-				buffer1 = await getBuffer(anu.result.url_video)
-				xeon.sendMessage(from, buffer1, video, {mimetype: 'video/mp4', filename: `${anu.result.video}.mp4`, quoted:freply, caption: 'Here bro'})
-					break  
-			
-      case "video":
-        if (args.length === 0)
-          return reply(
-            `Send orders *${prefix}video* _The title of the song to be search for_`
-          );
-        var srch = args.join("");
-        aramas = await yts(srch);
-        aramat = aramas.all;
-        var mulaikah = aramat[0].url;
-        try {
-          ytv(mulaikah).then((res) => {
-            const { dl_link, thumb, title, filesizeF, filesize } = res;
-            axios
-              .get(`https://tinyurl.com/api-create.php?url=${dl_link}`)
-              .then(async (a) => {
-                if (Number(filesize) >= 100000)
-                  return sendMediaURL(
-                    from,
-                    thumb,
-                    `*PLAY VIDEO*\n\n*Title* : ${title}\n*Ext* : MP3\n*Filesize* : ${filesizeF}\n*Link* : ${a.data}\n\n_For the duration of more than the limit is presented in the link_`
-                  );
-                const captions = `*PLAY VIDEO*\n\n*Title* : ${title}\n*Ext* : MP4\n*Size* : ${filesizeF}\n*Link* : ${a.data}\n\n_Please wait for the media file to be sent it may take a few minutes_`;
-                sendMediaURL(from, thumb, captions);
-                await sendMediaURL(from, dl_link).catch(() => reply("error"));
-              });
-          });
-        } catch (err) {
-          reply(mess.error.api);
-        }
-        break;
-      case "sticker":
-      case "stiker":
-      case "sg":
-      case "s":
-        if (
-          ((isMedia && !mek.message.videoMessage) || isQuotedImage) &&
-          args.length == 0
-        ) {
-          const encmedia = isQuotedImage
-            ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
-                .extendedTextMessage.contextInfo
-            : mek;
-          const media = await xeon.downloadAndSaveMediaMessage(encmedia);
-          ran = "666.webp";
-          await ffmpeg(`./${media}`)
-            .input(media)
-            .on("start", function (cmd) {
-              console.log(`Started : ${cmd}`);
-            })
-            .on("error", function (err) {
-              console.log(`Error : ${err}`);
-              fs.unlinkSync(media);
-              reply("error");
-            })
-            .on("end", function () {
-              console.log("Finish");
-              xeon.sendMessage(from, fs.readFileSync(ran), sticker, {
-                quoted: mek,
-              });
-              fs.unlinkSync(media);
-              fs.unlinkSync(ran);
-            })
-            .addOutputOptions([
-              `-vcodec`,
-              `libwebp`,
-              `-vf`,
-              `scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse`,
-            ])
-            .toFormat("webp")
-            .save(ran);
-        } else if (
-          ((isMedia && mek.message.videoMessage.seconds < 11) ||
-            (isQuotedVideo &&
-              mek.message.extendedTextMessage.contextInfo.quotedMessage
-                .videoMessage.seconds < 11)) &&
-          args.length == 0
-        ) {
-          const encmedia = isQuotedVideo
-            ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
-                .extendedTextMessage.contextInfo
-            : mek;
-          const media = await xeon.downloadAndSaveMediaMessage(encmedia);
-          ran = "999.webp";
-          reply(mess.wait);
-          await ffmpeg(`./${media}`)
-            .inputFormat(media.split(".")[1])
-            .on("start", function (cmd) {
-              console.log(`Started : ${cmd}`);
-            })
-            .on("error", function (err) {
-              console.log(`Error : ${err}`);
-              fs.unlinkSync(media);
-              tipe = media.endsWith(".mp4") ? "video" : "gif";
-              reply(`Gagal, pada saat mengkonversi ${tipe} ke stiker`);
-            })
-            .on("end", function () {
-              console.log("Finish");
-              xeon.sendMessage(from, fs.readFileSync(ran), sticker, {
-                quoted: mek,
-              });
-              fs.unlinkSync(media);
-              fs.unlinkSync(ran);
-            })
-            .addOutputOptions([
-              `-vcodec`,
-              `libwebp`,
-              `-vf`,
-              `scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse`,
-            ])
-            .toFormat("webp")
-            .save(ran);
-        } else {
-          reply(
-            `Send a picture with a caption ${prefix}sticker\nVideo Sticker Duration 1-9 Seconds`
-          );
-        }
-        break;
-      case "toimg":
-        if (!isQuotedSticker) return reply("𝗥𝗲𝗽𝗹𝘆/𝘁𝗮𝗴 𝘀𝘁𝗶𝗰??𝗲𝗿 !");
-        reply(mess.wait);
-        encmedia = JSON.parse(JSON.stringify(mek).replace("quotedM", "m"))
-          .message.extendedTextMessage.contextInfo;
-        media = await xeon.downloadAndSaveMediaMessage(encmedia);
-        ran = getRandom(".png");
-        exec(`ffmpeg -i ${media} ${ran}`, (err) => {
-          fs.unlinkSync(media);
-          if (err) return reply("Well failed, try again ^_^");
-          buffer = fs.readFileSync(ran);
-          fakethumb(buffer, `Here bro ${pushname}`);
-          fs.unlinkSync(ran);
-        });
-        break;
-      case "ytsearch":
-        if (args.length < 1) return reply("Please enter a query!");
-        var srch = args.join("");
-        try {
-          var aramas = await yts(srch);
-        } catch {
-          return await xeon.sendMessage(
-            from,
-            "Error!",
-            MessageType.text,
-            dload
-          );
-        }
-        aramat = aramas.all;
-        var tbuff = await getBuffer(aramat[0].image);
-        var ytresult = "";
-        ytresult += "「 *YOUTUBE SEARCH* 」";
-        ytresult += "\n________________________\n\n";
-        aramas.all.map((video) => {
-          ytresult += "❏ Title: " + video.title + "\n";
-          ytresult += "❏ Link: " + video.url + "\n";
-          ytresult += "❏ Duration: " + video.timestamp + "\n";
-          ytresult +=
-            "❏ Upload: " + video.ago + "\n________________________\n\n";
-        });
-        ytresult += "◩ *SELF-BOT*";
-        await fakethumb(tbuff, ytresult);
-        break;
-      case "setreply":
-      
-        if (!q) return fakegroup(mess.wrongFormat);
-        fake = q;
-        fakegroup(`Success Changing Conversation Fake : ${q}`);
-        break;
-      case "setfakeimg":
-        if (
-          ((isMedia && !mek.message.videoMessage) ||
-            isQuotedImage ||
-            isQuotedSticker) &&
-          args.length == 0
-        ) {
-          boij =
-            isQuotedImage || isQuotedSticker
-              ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
-                  .extendedTextMessage.contextInfo
-              : mek;
-          delb = await xeon.downloadMediaMessage(boij);
-          fs.writeFileSync(`./stik/fake.jpeg`, delb);
-          reply("Success");
-        } else {
-          reply(`Send a picture with a caption ${prefix}sethumb`);
-        }
-        break;
-      case "setthumb":
-        if (
-          ((isMedia && !mek.message.videoMessage) ||
-            isQuotedImage ||
-            isQuotedSticker) &&
-          args.length == 0
-        ) {
-          boij =
-            isQuotedImage || isQuotedSticker
-              ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
-                  .extendedTextMessage.contextInfo
-              : mek;
-          delb = await xeon.downloadMediaMessage(boij);
-          fs.writeFileSync(`./stik/thumb.jpeg`, delb);
-          reply("Success");
-        } else {
-          reply(`Send a picture with a caption ${prefix}sethumb`);
-        }
-        break;
-
-      case "emoji":
-        if (!q) return fakegroup("the emoji?");
-        qes = args.join(" ");
-        emoji.get(`${qes}`).then((emoji) => {
-          teks = `${emoji.images[4].url}`;
-          sendStickerFromUrl(from, `${teks}`);
-          console.log(teks);
-        });
-        break;
-
-      case "image":
-      case "gimage":
-      case "googleimage":
-        if (args.length < 1) return reply("What do you want to search?");
-        reply(mess.wait);
-        teks = args.join(" ");
-        res = await gis(teks, google);
-        function google(error, result) {
-          if (error) {
-            return reply(
-              "_[ ! ] Error Found Error Or Result Not Found_"
-            );
-          } else {
-            gugIm = result;
-            random = gugIm[Math.floor(Math.random() * gugIm.length)].url;
-            sendMediaURL(from, random);
-          }
-        }
-        break;
-
-      case "igstalk":
-        if (!q) return fakegroup("Username?");
-        ig.fetchUser(`${args.join(" ")}`).then((Y) => {
-          console.log(`${args.join(" ")}`);
-          ten = `${Y.profile_pic_url_hd}`;
-          teks = `*ID* : ${Y.profile_id}\n*Username* : ${args.join(
-            ""
-          )}\n*Full Name* : ${Y.full_name}\n*Bio* : ${
-            Y.biography
-          }\n*Followers* : ${Y.followers}\n*Following* : ${
-            Y.following
-          }\n*Private* : ${Y.is_private}\n*Verified* : ${
-            Y.is_verified
-          }\n\n*Link* : https://instagram.com/${args.join("")}`;
-          sendMediaURL(from, ten, teks);
-        });
-        break;
-      case "fb":
-        if (!q) return reply("The link?");
-        if (!isUrl(args[0]) && !args[0].includes("facebook.com"))
-          return reply(mess.Iv);
-        reply(mess.wait);
-        te = args.join(" ");
-        hx.fbdown(`${te}`).then((G) => {
-          ten = `${G.HD}`;
-          sendMediaURL(from, ten, `*Link video_normal* : ${G.Normal_video}`);
-        });
-        break;
-        
-      case "term":
-      if (!mek.key.fromMe) return;
-        if (!q) return fakegroup(mess.wrongFormat);
-        exec(q, (err, stdout) => {
-          if (err) return fakegroup(`Only for owner 🗿:~ ${err}`);
-          if (stdout) {
-            fakegroup(stdout);
-          }
-        });
-        break;
-      case "join":
-        try {
-          if (!isUrl(args[0]) && !args[0].includes("whatsapp.com"))
-            return reply(mess.Iv);
-          hen = args[0];
-          if (!q) return reply("Enter the group link");
-          var codeInvite = hen.split("https://chat.whatsapp.com/")[1];
-          if (!codeInvite) return fakegroup("make sure the link is open!");
-          var response = await xeon.acceptInvite(codeInvite);
-          grupinv("SUCCESS");
-        } catch {
-          fakegroup("LINK ERROR!");
-        }
-        break;
-      case "runtime":
-      case "test":
-        run = process.uptime();
-        teks = `${kyun(run)}`;
-        reply(teks);
-        break;
-      case "speed":
-      case "ping":
-        const timestamp = speed();
-        const latensi = speed() - timestamp;
-        exec(`neofetch --stdout`, (error, stdout, stderr) => {
-          const child = stdout.toString("utf-8");
-          const ssd = child.replace(/Memory:/, "Ram:");
-          const pingnya = `*${ssd}Speed: ${latensi.toFixed(4)} Second*`;
-          reply(pingnya);
-        });
-        break;
-    
-      case "totag":
-      if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak});
-					if (!isGroup) return reply('this feature is only for groups');
-					if (!isGroupAdmins) return reply('only admin can use this feature');
-        if (
-          ((isMedia && !mek.message.videoMessage) || isQuotedSticker) &&
-          args.length == 0
-        ) {
-          encmedia = isQuotedSticker
-            ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
-                .extendedTextMessage.contextInfo
-            : mek;
-          file = await xeon.downloadAndSaveMediaMessage(
-            encmedia,
-            (filename = getRandom())
-          );
-          value = args.join(" ");
-          var group = await xeon.groupMetadata(from);
-          var member = group["participants"];
-          var mem = [];
-          member.map(async (adm) => {
-            mem.push(adm.id.replace("c.us", "s.whatsapp.net"));
-          });
-          var options = {
-            contextInfo: { mentionedJid: mem },
-            quoted: mek,
-          };
-          ini_buffer = fs.readFileSync(file);
-          xeon.sendMessage(from, ini_buffer, sticker, options);
-          fs.unlinkSync(file);
-        } else if (
-          ((isMedia && !mek.message.videoMessage) || isQuotedImage) &&
-          args.length == 0
-        ) {
-          encmedia = isQuotedImage
-            ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
-                .extendedTextMessage.contextInfo
-            : mek;
-          file = await xeon.downloadAndSaveMediaMessage(
-            encmedia,
-            (filename = getRandom())
-          );
-          value = args.join(" ");
-          var group = await xeon.groupMetadata(from);
-          var member = group["participants"];
-          var mem = [];
-          member.map(async (adm) => {
-            mem.push(adm.id.replace("c.us", "s.whatsapp.net"));
-          });
-          var options = {
-            contextInfo: { mentionedJid: mem },
-            quoted: mek,
-          };
-          ini_buffer = fs.readFileSync(file);
-          xeon.sendMessage(from, ini_buffer, image, options);
-          fs.unlinkSync(file);
-        } else if (
-          ((isMedia && !mek.message.videoMessage) || isQuotedAudio) &&
-          args.length == 0
-        ) {
-          encmedia = isQuotedAudio
-            ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
-                .extendedTextMessage.contextInfo
-            : mek;
-          file = await xeon.downloadAndSaveMediaMessage(
-            encmedia,
-            (filename = getRandom())
-          );
-          value = args.join(" ");
-          var group = await xeon.groupMetadata(from);
-          var member = group["participants"];
-          var mem = [];
-          member.map(async (adm) => {
-            mem.push(adm.id.replace("c.us", "s.whatsapp.net"));
-          });
-          var options = {
-            mimetype: "audio/mp4",
-            ptt: true,
-            contextInfo: { mentionedJid: mem },
-            quoted: mek,
-          };
-          ini_buffer = fs.readFileSync(file);
-          xeon.sendMessage(from, ini_buffer, audio, options);
-          fs.unlinkSync(file);
-        } else if (
-          ((isMedia && !mek.message.videoMessage) || isQuotedVideo) &&
-          args.length == 0
-        ) {
-          encmedia = isQuotedVideo
-            ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
-                .extendedTextMessage.contextInfo
-            : mek;
-          file = await xeon.downloadAndSaveMediaMessage(
-            encmedia,
-            (filename = getRandom())
-          );
-          value = args.join(" ");
-          var group = await xeon.groupMetadata(from);
-          var member = group["participants"];
-          var mem = [];
-          member.map(async (adm) => {
-            mem.push(adm.id.replace("c.us", "s.whatsapp.net"));
-          });
-          var options = {
-            mimetype: "video/mp4",
-            contextInfo: { mentionedJid: mem },
-            quoted: mek,
-          };
-          ini_buffer = fs.readFileSync(file);
-          xeon.sendMessage(from, ini_buffer, video, options);
-          fs.unlinkSync(file);
-        } else {
-          reply(
-            `reply image/sticker/audio/video with caption ${prefix}totag`
-          );
-        }
-        break;
-      case "tomp4":
-        if (
-          ((isMedia && !mek.message.videoMessage) || isQuotedSticker) &&
-          args.length == 0
-        ) {
-          ger = isQuotedSticker
-            ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
-                .extendedTextMessage.contextInfo
-            : mek;
-          owgi = await xeon.downloadAndSaveMediaMessage(ger);
-          webp2mp4File(owgi).then((res) => {
-            sendMediaURL(from, res.result, "Done");
-          });
-        } else {
-          reply("reply sticker");
-        }
-        fs.unlinkSync(owgi);
-        break;
-      case "tourl":
-        if (
-          ((isMedia && !mek.message.videoMessage) ||
-            isQuotedImage ||
-            isQuotedVideo) &&
-          args.length == 0
-        ) {
-          boij =
-            isQuotedImage || isQuotedVideo
-              ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
-                  .extendedTextMessage.contextInfo
-              : mek;
-          owgi = await xeon.downloadMediaMessage(boij);
-          res = await upload(owgi);
-          reply(res);
-        } else {
-          reply("send/reply pictures/videos");
-        }
-        break;
-      case "inspect":
-        try {
-          if (!isUrl(args[0]) && !args[0].includes("whatsapp.com"))
-            return reply(mess.Iv);
-          if (!q) return reply("enter the link wa");
-          cos = args[0];
-          var net = cos.split("https://chat.whatsapp.com/")[1];
-          if (!net) return reply("make sure its a link https://whatsapp.com/");
-          jids = [];
-          let {
-            id,
-            owner,
-            subject,
-            subjectOwner,
-            desc,
-            descId,
-            participants,
-            size,
-            descOwner,
-            descTime,
-            creation,
-          } = await xeon.query({
-            json: ["query", "invite", net],
-            expect200: true,
-          });
-          let par = `*Id* : ${id}
-${owner ? `*Owner* : @${owner.split("@")[0]}` : "*Owner* : -"}
-*Gc Name* : ${subject}
-*Gc created Date* : ${formatDate(creation * 1000)}
-*Number of Members* : ${size}
-${desc ? `*Desc* : ${desc}` : "*Desc* : there is not any"}
-*Id desc* : ${descId}
-${
-  descOwner
-    ? `*Desc diubah oleh* : @${descOwner.split("@")[0]}`
-    : "*Desc modified by* : -"
-}\n*Date* : ${
-            descTime ? `${formatDate(descTime * 1000)}` : "-"
-          }\n\n*Saved contacts*\n`;
-          for (let y of participants) {
-            par += `> @${y.id.split("@")[0]}\n*Admin* : ${
-              y.isAdmin ? "Yes" : "No"
-            }\n`;
-            jids.push(`${y.id.replace(/@c.us/g, "@s.whatsapp.net")}`);
-          }
-          jids.push(
-            `${owner ? `${owner.replace(/@c.us/g, "@s.whatsapp.net")}` : "-"}`
-          );
-          jids.push(
-            `${
-              descOwner
-                ? `${descOwner.replace(/@c.us/g, "@s.whatsapp.net")}`
-                : "-"
-            }`
-          );
-          xeon.sendMessage(from, par, text, {
-            quoted: mek,
-            contextInfo: { mentionedJid: jids },
-          });
-        } catch {
-          reply("Link error");
-        }
-        break;
-      case "eval":
-        if (!mek.key.fromMe) return;
-        xeon.sendMessage(
-          from,
-          JSON.stringify(eval(budy.slice(5)), null, "\t"),
-          text,
-          { quoted: mek }
-        );
-        break;
-if (!mek.key.fromMe) return;
-if (_chats.startsWith('$')){
-if (!isOwner)return// reply(`This command can not be carried out by rent bot temporarily`)
-if (!q)return 
-var itsme = `${sender}`
-var split = `*Xeon Bot Inc.*`
-const term = {
-contextInfo: {
-participant: itsme,
-quotedMessage: {
-extendedTextMessage: {
-text: split,
-}
-}
-}
-}
-exec(q, (err, stdout) => {
-if (err) return xeon.sendMessage(from, ` ${err}`, text, { quoted: mek })
-if (stdout) {
-xeon.sendMessage(from, stdout, text, term)
-}
-})
-}
-
-      default:
-		if (hour_now >= '02:00' && hour_now <= '04:00') {
-          console.log(color('[Message Bot]', 'cyan'), color('Horny = Bonks', 'yellow'), color('(💥)', 'white'))
-          }
-        if (hour_now >= '04:00' && hour_now <= '05:00') {
-          console.log(color('[Message Bot]', 'cyan'), color('Horny = Bonks', 'yellow'), color('(💥)', 'white'))
-          }
-          if (hour_now >= '05:00' && hour_now <= '06:00') {
-          console.log(color('[Message Bot]', 'cyan'), color('Horny = Bonks', 'yellow'), color('(💥)', 'white'))
-          }
-        if (hour_now >= '06:00' && hour_now <= '11:00') {
-          console.log(color('[Message Bot]', 'cyan'), color('Horny = Bonks', 'yellow'), color('(💥)', 'white'))
-          }
-          if (hour_now >= '11:00' && hour_now <= '12:00') {
-          console.log(color('[Message Bot]', 'cyan'), color('Horny = Bonks', 'yellow'), color('(💥)', 'white'))
-          }
-          if (hour_now >= '12:00' && hour_now <= '14:00') {
-           console.log(color('[Message Bot]', 'cyan'), color('Horny = Bonks', 'yellow'), color('(💥)', 'white'))
-           }
-        if (hour_now >= '14:00' && hour_now <= '15:00') {
-          console.log(color('[Message Bot]', 'cyan'), color('Horny = Bonks', 'yellow'), color('(💥)', 'white'))
-          }
-        if (hour_now >= '15:00' && hour_now <= '16:00') {
-          console.log(color('[Message Bot]', 'cyan'), color('Horny = Bonks', 'yellow'), color('(💥)', 'white'))
-          }
-        if (hour_now >= '17:00' && hour_now <= '18:00') {
-          console.log(color('[Message Bot]', 'cyan'), color('Horny = Bonks', 'yellow'), color('(??)', 'white'))
-          }
-        if (hour_now >= '18:00' && hour_now <= '19:00') {
-        	console.log(color('[Message Bot]', 'cyan'), color('Horny = Bonks', 'yellow'), color('(💥)', 'white'))
-        }
-        if (hour_now >= '19:00' && hour_now <= '20:00') {
-           console.log(color('[Message Bot]', 'cyan'), color('Horny = Bonks', 'yellow'), color('(💥)', 'white'))
-           }
-        if (hour_now >= '20:00' && hour_now <= '00:00') {
-           console.log(color('[Message Bot]', 'cyan'), color('Horny = Bonks', 'yellow'), color('(💥)', 'white'))
-        }
-          if (hour_now >= '00:00' && hour_now <= '02:00') {
-           console.log(color('[Message Bot]', 'cyan'), color('Horny = Bonks', 'yellow'), color('(💥)', 'white'))
-        }
-
-     if (!mek.key.fromMe) return;
-        if (_chats.startsWith(">")) {
-          try {
-            return xeon.sendMessage(
-              from,
-              JSON.stringify(eval(budy.slice(2)), null, "\t"),
-              text,
-              { quoted: mek }
-            );
-          } catch (err) {
-            e = String(err);
-            reply(e);
-          }
-        }
-    }
-
-    if (isGroup && budy != undefined) {
-    } else {
-      console.log(
-        color("[Doge Bot]", "red"),
-        "𝐃𝐨𝐠𝐞 𝐁𝐨𝐭",
-        color(sender.split("@")[0])
-      );
-    }
-   } catch (e) {
-    e = String(e);// Fixed In Consolog 🌿
-    if (!e.includes("this.isZero") && !e.includes("jid") && !e.includes("Cannot read property 'fromMe' of undefined") && !e.includes("Cannot use 'in' operator to search for 'text' in undefined") && !e.includes("Cannot read property 'key' of undefined") && !e.includes("Cannot use 'in' operator to search for 'text' in undefined")) {
-      console.log("Message : %s", color(e, "yellow"));
-    }
-    // console.log(e)
-  }
-};
-// Endシ︎
