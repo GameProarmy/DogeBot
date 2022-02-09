@@ -1,4 +1,4 @@
-// Script by Xeon 
+// Script by ꧁༺「™✯࿗ꌛ℮ꁣꁣꊛꈛ✯ī.am 」༻꧂⁩
 // Trust bot
 // ©Xeon Bot Incorporated
 const {
