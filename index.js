@@ -1,6 +1,6 @@
-// Script by ꧁༺「™✯࿗ꌛ℮ꁣꁣꊛꈛ✯ī.am 」༻꧂⁩
+// Script by Xeon 
 // Trust bot
-// ©Trust bot Incorporated
+// ©Xeon Bot Incorporated
 const {
   WAConnection: _WAConnection,
   MessageType,
@@ -922,7 +922,7 @@ xeon.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
       xeon.groupAdd(from, orangnya);
     };
         const grupinv = (teks) => {
-        	grup = xeon.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/Dgt6JhzTvlmEor8Zz23fHx', "groupName": `Trust bot Inc.`, "footerText": "*_Trust bot_*", "jpegThumbnail": iye, "caption": teks}}, {quoted:mek})
+        	grup = xeon.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/Dgt6JhzTvlmEor8Zz23fHx', "groupName": `Xeon Bot Inc.`, "footerText": "*_Trust bot_*", "jpegThumbnail": iye, "caption": teks}}, {quoted:mek})
             xeon.relayWAMessage(grup)
         }
 const fakeitem = (teks) => {
@@ -1365,7 +1365,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
                buttons = [{buttonId:`allmenu`, 
                buttonText:{displayText: 'MENU✯'},type:1},
                {buttonId:`owner`,buttonText:{displayText:'OWNER✯'},type:1},
-               {buttonId:`command`,buttonText:{displayText:'LIST MENU✯(DEFEKT)'},type:1}]
+               {buttonId:`command`,buttonText:{displayText:'LIST MENU✯'},type:1}]
 
 
                imageMsg = (await xeon.prepareMessageMedia(fs.readFileSync(`./stik/oksip.jpeg`), 'imageMessage', {thumbnail: fs.readFileSync(`./stik/oksip.jpeg`)})).imageMessage
@@ -1615,14 +1615,15 @@ ${readmore}
 𝗡𝗼𝘁𝗲 : Horny = Bonks💥
 Just Learn to Make Bots ✯
  
+𝘼𝙈 𝙉𝙊𝙏 𝘼 𝙋𝙍𝙊𝙂𝙍𝘼𝙈𝙈𝙀𝙍 𝘽𝙍𝙊
 `
-sendButLocation(from, `${menu}`,`𝘽𝙤𝙩 𝘽𝙮 @${dtod.split("@")[0]}`, {jpegThumbnail:iye}, [{buttonId:`command`,buttonText:{displayText:'LIST MENU(DEFEKT)'},type:1},{buttonId:`credit`,buttonText:{displayText:'Owner nummern'},type:1}], {contextInfo: { mentionedJid: [ptod,stod]}})
+sendButLocation(from, `${menu}`,`𝘽𝙤𝙩 𝘽𝙮 @${dtod.split("@")[0]}`, {jpegThumbnail:iye}, [{buttonId:`command`,buttonText:{displayText:'LIST MENU'},type:1},{buttonId:`credit`,buttonText:{displayText:'THANKS TO'},type:1}], {contextInfo: { mentionedJid: [ptod,stod]}})
 
 break
 case 'credit':
    dtod = '4915905890216'
    dtod1 = '4915905890216'
-   dtod2 = 
+   dtod2 = '
    dtod3 = ''
    dtod4 ='0'
    var yez = `
@@ -1773,13 +1774,17 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
 break
    
 case 'owner':
-           case 'owner':
+           case 'OWNER':
              
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
                sendKontak(from, `${owner}`, `${fakeyoi}`, 'Busy!!')
                await sleep(1000)
-               
-           
+               haibg =`Hi ${pushname}\nThats my owner, What do you want to know about??`
+               buttonsMessage = { contentText: `${haibg}`, footerText: `Created By ${fakeyoi} ✯`, buttons: buttons, headerType: 1 }
+               prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{})
+               xeon.relayWAMessage(prep)
+               break     
+            
 case 'f':
 case 'lock':
  ikymemek = {
@@ -2020,7 +2025,11 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
                               "rowId": ""
                            },
                            {
-                              "title": "Creator",
+                              "title": "OWNER",
+                              "rowId": ""
+                           },
+                           {
+                              "title": "Rentbot",
                               "rowId": ""
                            },
                            {
@@ -2428,7 +2437,12 @@ case 'triggered':
                 }
             
                 break
-
+  break
+case 'shit':
+		case 'sc':
+		case 'sourcecode':
+		xeon.sendMessage(from, { text: "Hoff nicht", matchedText: 'nopee', description: "", title: "What are you doing?", jpegThumbnail: iye }, 'extendedTextMessage', { detectLinks: false, contextInfo: { forwardingScore: 508, isForwarded: true}, quoted: finv})
+		break
       //------------------< Sticker Cmd >-------------------
       case "addcmd":
       case "setcmd":
@@ -2703,7 +2717,7 @@ teks = `\`\`\`「 LIST RESPON  」\`\`\`\n\n`
 for (let i = 0; i < commandsDB.length; i ++){
 teks += `❏ *Ask:* ${commandsDB[i].pesan}\n`
 teks += `❏ *Reply:* ${commandsDB[i].balasan}\n`
-teks += `❏ *Creator:* ${commandsDB[i].creator}\n\n`
+teks += `❏ *OWNER:* ${commandsDB[i].OWNER}\n\n`
 }
 reply(teks)
 break 
@@ -3335,41 +3349,4 @@ break
             {
               buttonId: `autojoin on`,
               buttonText: {
-                displayText: `on`,
-              },
-              type: 1,
-            },
-            {
-              buttonId: `autojoin off`,
-              buttonText: {
-                displayText: `off`,
-              },
-              type: 1,
-            },
-          ]);
-        }
-        break;
-      case "antivirtex":
-        if (!isGroup) return reply("Group only");
-        if (!isGroupAdmins && !mek.key.fromMe) return reply("admin only");
-        if (args[0] == "on") {
-          if (isAntivirtex) return reply("Activated!!");
-          antivirtex.push(from);
-          fs.writeFileSync(
-            "./database/antivirtex.json",
-            JSON.stringify(antivirtex)
-          );
-          reply("Successfully activated antivirtex!");
-        } else if (args[0] == "off") {
-          antivirtex.splice(from, 1);
-          fs.writeFileSync("./database/antivirtex.json", JSON.stringify(ant));
-          reply("Successfully turned off antivirtex!");
-        } else if (!q) {
-          sendButMessage(from, `MODE ANTIVIRTEX`, `Please choose one`, [
-            {
-              buttonId: `antivirtex on`,
-              buttonText: {
-                displayText: `on`,
-              },
-              type: 1,
-    
+      
