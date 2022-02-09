@@ -1,6 +1,6 @@
 // Script by ꧁༺「™✯࿗ꌛ℮ꁣꁣꊛꈛ✯ī.am 」༻꧂⁩
 // Trust bot
-// ©Xeon Bot Incorporated
+// ©Trust Bot Incorporated
 const {
   WAConnection: _WAConnection,
   MessageType,
